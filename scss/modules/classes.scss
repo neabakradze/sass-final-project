@@ -1,0 +1,44 @@
+//selling product boxes
+%selling-products-main-div{
+    width: 100%;
+}
+%selling-products-div{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    color:$color-dark-nude;
+    font-family:$open-sans-font;
+}
+%product-description{
+    display: flex;
+        justify-content: center;
+        font-size: $font-size-25px;
+}
+%product-name{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+%buy-now-button{
+    width: 170px;
+    height: 40px;
+    font-size: $font-size-20px;
+    background-color: $dark-warm-pink;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+%product-price{
+    margin-top: 5px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+
+
+//random
+%display-flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
