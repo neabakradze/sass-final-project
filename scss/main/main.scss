@@ -123,7 +123,7 @@
         @extend %product-name;
     }
     .product-price{
-        @extend %product-price;
+      @extend %product-price;
     }
     .buy-now-button{
         @extend %display-flex;
@@ -138,3 +138,213 @@
   }
    }
 
+
+
+   //second-div
+   .selling-products-main-div2{
+    @extend %selling-products-main-div;
+    margin-top: 50px;
+    
+    .selling-products-div2{
+      @extend %selling-products-div;
+
+
+      //first-product
+  .pink-gloss{
+    .pink-gloss-img{
+      max-width: 100%;
+    }
+    .pink-gloss-descript{
+      margin-top: 15px;
+      .pink-gloss-description{
+        @extend %product-description;
+      }
+      .pink-gloss-name{
+        @extend %product-name;
+      }
+      .pink-gloss-price{
+        @extend %product-price;
+      }
+      .pink-gloss-button-div{
+        @extend %display-flex;
+.pink-gloss-button{
+  @extend %buy-now-button;
+}
+      }
+
+    }
+
+  }
+
+//second product
+.vannila{
+  max-width: 781px;
+  .vannila-img{
+    max-width: 77%;
+    margin-left: 51px;
+  }
+  .vannila-descript{
+    margin-top: 15px;
+    .vannila-description{
+      @extend %product-description;
+    }
+    .vannila-name{
+      @extend %product-name;
+    }
+    .vannila-price{
+      @extend %product-price;
+    }
+    .vannila-button-div{
+      @extend %display-flex;
+      .vannila-button{
+        @extend %buy-now-button;
+      }
+    }
+  }
+}
+
+//third product
+.cherry-cola{
+.cherry-cola-img{
+  max-width: 115%;
+}
+.cherry-cola-descript{
+  margin-top: 15px;
+  .cherry-cola-description{
+    @extend %product-description;
+  }
+  .cherry-cola-name{
+    @extend %product-name;
+  }
+  .cherry-cola-price{
+    @extend %product-price;
+  }
+  .cherry-cola-button-div{
+    @extend %display-flex;
+    .cherry-cola-button{
+      @extend %buy-now-button;
+    }
+  }
+}
+}
+    }
+   }
+
+
+
+   //third div
+   .selling-products-main-div3{
+    @extend %selling-products-main-div;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #ede4e0;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+    margin-top: 60px;
+    font-family: $open-sans-font;
+     .back-in-stock{
+      font-size: $font-size-40px;
+      margin-left: 669px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      color: $color-dark-nude;
+     }
+     .selling-products-div2{
+      @extend %selling-products-div;
+
+//first product
+.pink-shadow{
+  .pink-shadow-img{
+    max-width: 74%;
+    margin-left: 50px;
+  }
+  .pink-shadow-descript{
+    margin-top: 15px;
+    .pink-shadow-description{
+      @extend %product-description;
+    }
+    .pink-shadow-name{
+      @extend %product-name;
+    }
+    .pink-shadow-price{
+      @extend %product-price;
+    }
+    .pink-shadow-button-div{
+      @extend %display-flex;
+      .pink-shadow-button{
+        @extend %buy-now-button;
+      }
+    }
+  }
+}
+//second-product
+.glittery-skyblue-shadow{
+.glittery-skyblue-shadow-img{
+  max-width: 74%;
+  margin-left: 50px;
+}
+.glittery-skyblue-shadow-descript{
+  margin-top: 15px;
+.glittery-skyblue-shadow-description{
+  @extend %product-description;
+}
+.glittery-skyblue-shadow-name{
+  @extend %product-name;
+}
+.glittery-skyblue-shadow-price{
+  @extend %product-price;
+}
+.glittery-skyblue-shadow-button-div{
+  @extend %display-flex;
+}
+.glittery-skyblue-shadow-button{
+  @extend %buy-now-button;
+}
+}
+}
+
+//THITD-PRODUCT
+
+.pink-gold{
+  .pink-gold-img{
+    max-width: 74%;
+  margin-left: 50px;
+  }
+  .pink-gold-descript{
+    margin-top: 15px;
+    .pink-gold-description{
+      @extend %product-description;
+    }
+    .pink-gold-name{
+      @extend %product-name;
+    }
+    .pink-gold-price{
+      @extend %product-price;
+    }
+    .pink-gold-button-div{
+      @extend %display-flex;
+      .pink-gold-button{
+        @extend %buy-now-button;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     }
+    }
