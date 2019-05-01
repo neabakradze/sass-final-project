@@ -51,6 +51,29 @@
 
 //main-image
 .main-image-div{
+  position: relative;
+  font-family: $open-sans-font;
+  .main-image-text{
+    font-size: 53px;
+    color: #fff;
+    position: absolute;
+    top: 98px;
+    left: 32px;
+  }
+  .main-image-button{
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 219px;
+    left: 717px;
+    border: 2px black solid;
+    border-radius: 5px;
+    width: 240px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
     .main-image{
            width: 100%;
            margin-top: 70px;
@@ -243,13 +266,14 @@
     margin-top: 60px;
     margin-top: 60px;
     font-family: $open-sans-font;
-     .back-in-stock{
-      font-size: $font-size-40px;
-      margin-left: 669px;
+    .back-in-stock-div{
+      @extend%display-flex;
       margin-bottom: 10px;
-      margin-top: 10px;
-      color: $color-dark-nude;
-     }
+      .back-in-stock{
+        font-size: $font-size-40px;
+        color: $color-dark-nude;
+       }
+    }
      .selling-products-div2{
       @extend %selling-products-div;
 
@@ -330,21 +354,115 @@
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
      }
     }
+
+
+
+    //FOOTER
+    .footer{
+      margin-top: 50px;
+//section-form
+.section-form{
+  font-family: $open-sans-font;
+  max-width: 1170px;
+  margin: 0 auto;
+  .footer-section-title{
+    font-size: 60px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    color: $dark-brown;
+  }
+  .footer-section-text{
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 30px;
+  }
+
+  .form-div{
+    .input-emailaddress{
+      box-shadow: 0px 12px 51px 0 rgba(30,30,30,0.05);
+      border: none;
+    padding: 15px 10px 20px;
+    border-bottom: 2px solid rgba(30,30,30,0.2);
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-indent: 17px;
+    display: flex;
+    margin: 0 auto;
+    width: 45%;
+    }
+    .button-sign-up-div{
+      display: flex;
+    justify-content: center;
+    padding: 30px;
+
+      .button-sign-up{
+        .sign-in{
+          color: #fff;
+        }
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        display: flex;
+        width: 18%;
+        padding: 20px 0 16px;
+        transition: all 0.15s;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+      border: 2px solid 1 $dark-brown;
+      background-color: $dark-brown;
+      }
+    }
+     }
+  }
+ 
+  //footer-div
+  .footer-div{
+    display: flex;
+    justify-content: center;
+    background-color: $dark-brown;
+    padding: 3px 0;
+    .footer-logo{
+      width: 100px;
+      max-width: 100%;
+      margin-left: 30px;
+    margin: 0 50px;
+    }
+    .footer-li-div{
+      display: flex;
+    width: 55%;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+    font-size: 16px;
+    font-family: $open-sans-font;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    

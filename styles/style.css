@@ -99,7 +99,7 @@ a {
   -ms-flex-pack: center;
   justify-content: center; }
 
-.selling-products-main-div .selling-products-div .contour1descript .button-div, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .button-div, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .buy-now-button, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-button-div, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-button-div, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-button-div, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-button-div, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-button-div, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-button-div {
+.selling-products-main-div .selling-products-div .contour1descript .button-div, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .button-div, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .buy-now-button, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-button-div, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-button-div, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-button-div, .selling-products-main-div3 .back-in-stock-div, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-button-div, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-button-div, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-button-div {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -182,9 +182,41 @@ a {
           color: #ad8574;
           font-family: "Open Sans Condensed", sans-serif; }
 
-.main-image-div .main-image {
-  width: 100%;
-  margin-top: 70px; }
+.main-image-div {
+  position: relative;
+  font-family: "Open Sans Condensed", sans-serif; }
+  .main-image-div .main-image-text {
+    font-size: 53px;
+    color: #fff;
+    position: absolute;
+    top: 98px;
+    left: 32px; }
+  .main-image-div .main-image-button {
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 219px;
+    left: 717px;
+    border: 2px black solid;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 240px;
+    height: 59px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .main-image-div .main-image {
+    width: 100%;
+    margin-top: 70px; }
 
 .selling-products-main-div .selling-products-div .contour1descript .contour1-img {
   max-width: 100%; }
@@ -225,12 +257,11 @@ a {
   margin-top: 60px;
   margin-top: 60px;
   font-family: "Open Sans Condensed", sans-serif; }
-  .selling-products-main-div3 .back-in-stock {
-    font-size: 40px;
-    margin-left: 669px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    color: #835f50; }
+  .selling-products-main-div3 .back-in-stock-div {
+    margin-bottom: 10px; }
+    .selling-products-main-div3 .back-in-stock-div .back-in-stock {
+      font-size: 40px;
+      color: #835f50; }
   .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-img {
     max-width: 74%;
     margin-left: 50px; }
@@ -246,3 +277,120 @@ a {
     margin-left: 50px; }
   .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript {
     margin-top: 15px; }
+
+.footer {
+  margin-top: 50px; }
+  .footer .section-form {
+    font-family: "Open Sans Condensed", sans-serif;
+    max-width: 1170px;
+    margin: 0 auto; }
+    .footer .section-form .footer-section-title {
+      font-size: 60px;
+      font-weight: 900;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #4c3a3a; }
+    .footer .section-form .footer-section-text {
+      font-size: 14px;
+      font-weight: 500;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 10px 0 30px; }
+    .footer .section-form .form-div .input-emailaddress {
+      -webkit-box-shadow: 0px 12px 51px 0 rgba(30, 30, 30, 0.05);
+      box-shadow: 0px 12px 51px 0 rgba(30, 30, 30, 0.05);
+      border: none;
+      padding: 15px 10px 20px;
+      border-bottom: 2px solid rgba(30, 30, 30, 0.2);
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-indent: 17px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 auto;
+      width: 45%; }
+    .footer .section-form .form-div .button-sign-up-div {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 30px; }
+      .footer .section-form .form-div .button-sign-up-div .button-sign-up {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 18%;
+        padding: 20px 0 16px;
+        -webkit-transition: all 0.15s;
+        -o-transition: all 0.15s;
+        transition: all 0.15s;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        letter-spacing: 0.5px;
+        border: 2px solid 1 #4c3a3a;
+        background-color: #4c3a3a; }
+        .footer .section-form .form-div .button-sign-up-div .button-sign-up .sign-in {
+          color: #fff; }
+  .footer .footer-div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #4c3a3a;
+    padding: 3px 0; }
+    .footer .footer-div .footer-logo {
+      width: 100px;
+      max-width: 100%;
+      margin-left: 30px;
+      margin: 0 50px; }
+    .footer .footer-div .footer-li-div {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 55%;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      color: #fff;
+      font-size: 16px;
+      font-family: "Open Sans Condensed", sans-serif; }
