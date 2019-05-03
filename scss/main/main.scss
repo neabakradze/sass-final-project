@@ -14,9 +14,7 @@
     z-index: 99999;
     background-color: $color-00;
     width: 100%;
-    @media (max-width: 1310px) {
-       display: none;
-    }
+  
     .header-div{
         display: flex;
         align-content:center;
@@ -24,25 +22,58 @@
     width: 100%;
     padding-top: 3px;
     padding-bottom: 3px;
+    @media (max-width:600px) {
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
     .header-logo{
         margin-left: 30px;
         width: 100px;
         max-width: 100%;
+        @media (max-width:800px) {
+          width: 11%;
+        }
+    
     }
     .header-ul-div{
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 65%;;
+@media (max-width:1030px) {
+  width: 80%;
+}
     .header-ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
         font-family: $open-sans-font;
+        .header-li{
+          &:hover {
+            color: $dark-warm-pink;
+            cursor: pointer;
+          }
+        }
         .style-a{
             color: $color-light-nude;
             font-family: $open-sans-font;
+        }
+        .collections-header-li{
+@media (max-width:830px) {
+  display: none;
+}
+        }
+        .best-sellers-header-li{
+          @media (max-width:830px) {
+            display: none;
+          }
+        }
+        .header-li-none{
+          display: none;
+@media (max-width:830px) {
+  display: block;
+}
         }
     }
     }
@@ -54,18 +85,44 @@
   position: relative;
   font-family: $open-sans-font;
   .main-image-text{
-    font-size: 53px;
+    font-size: 48px;
     color: #fff;
     position: absolute;
-    top: 98px;
-    left: 32px;
+    top: 15%;
+    left: 29px;
+    border-radius: 8px;
+    transition: 0.3s;
+    &:hover{
+      box-shadow: 0px 12px 51px 0 rgba(30, 30, 30, 0.52);
+      cursor: pointer;
+    }
+    @media (max-width:1440px) {
+      font-size: 40px;
+      top: 17%;
+    }
+    @media (max-width:1278px) {
+     font-size: 35px;
+     top: 18%;
+    }
+    @media (max-width:1125px) {
+      font-size: 30px;
+      top: 20%;
+     }
+     @media (max-width:967px) {
+      font-size: 25px;
+      top: 23%;
+     }
+     @media (max-width:813px) {
+      font-size: 22px;
+      top: 26%;
+     }
   }
   .main-image-button{
     font-size: 40px;
     color: #fff;
     position: absolute;
-    top: 219px;
-    left: 645px;
+    top: 34%;
+    left: 42%;
     border: 2px black solid;
     border-radius: 5px;
     width: 240px;
@@ -73,6 +130,49 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+    &:hover{
+      box-shadow: 0px 12px 51px 0 rgba(30, 30, 30, 0.52);
+      cursor: pointer;
+    }
+    @media (max-width:1324px) {
+      left: 41%;
+    }
+    @media (max-width:1255px) {
+      width: 230px;
+      height: 50px;
+      top: 35%;
+      left: 41%;
+    font-size: 35px;
+    }
+    @media (max-width:1188px) {
+      width: 220px;
+      height: 45px;
+      top: 36%;
+      left: 40%;
+    font-size: 30px;
+    }
+    @media (max-width:1088px) {
+      width: 205px;
+      height: 38px;
+      top: 37%;
+      left: 40%;
+    font-size: 25px;
+    }
+    @media (max-width:1012px) {
+      width: 190px;
+      height: 35px;
+      top: 38%;
+      left: 40%;
+    font-size: 20px;
+    }
+    @media (max-width:940px) {
+      width: 175px;
+    }
+    @media (max-width:870px) {
+      left: 42%;
+      width: 139px;
+    }
   }
     .main-image{
            width: 100%;
@@ -87,13 +187,20 @@
   @extend %selling-products-main-div;
   .selling-products-div{
     @extend %selling-products-div;
+    @media (max-width:760px) {
+      flex-wrap: wrap;
+    }
     //first product
     .contour1descript{
+      @media (max-width:760px) {
+        width: 50%;
+      }
        .contour1-img{
         max-width: 100%;
        } 
        .contour1-description{
         @extend %product-description;
+      
        }
        .contour1-name{
            @extend %product-name;
@@ -111,6 +218,9 @@
     }
         //second product
   .contour2{
+    @media (max-width:760px) {
+      width: 50%;
+    }
       .contour2-img{
         max-width: 100%;
       }
@@ -134,6 +244,11 @@
   }
 //third product
 .contour-bundle{
+  @media (max-width:760px) {
+    width: 50%;
+    margin: 45px auto;
+    margin-bottom: 0;
+  }
   .contour-bundle-img{
     max-width: 100%;
   }
@@ -170,10 +285,15 @@
     
     .selling-products-div2{
       @extend %selling-products-div;
-
+      @media (max-width:760px) {
+        flex-wrap: wrap;
+      }
 
       //first-product
   .pink-gloss{
+    @media (max-width:760px) {
+      width: 50%;
+    }
     .pink-gloss-img{
       max-width: 100%;
     }
@@ -201,13 +321,24 @@
 
 //second product
 .vannila{
+  @media (max-width:760px) {
+    width: 50%;
+  }
   max-width: 781px;
   .vannila-img{
     max-width: 77%;
     margin-left: 51px;
+    @media (max-width:760px) {
+      max-width: 77%;
+      margin-left: 42px;
+      margin-top: 71px;
+    }
   }
   .vannila-descript{
     margin-top: 15px;
+    @media (max-width:760px) {
+      margin-top: 45px;
+    }
     .vannila-description{
       @extend %product-description;
     }
@@ -228,11 +359,22 @@
 
 //third product
 .cherry-cola{
+  @media (max-width:760px) {
+    width: 50%;
+    margin: 30px auto;
+  }
 .cherry-cola-img{
-  max-width: 115%;
+  max-width: 100%;
+  @media (max-width:760px) {
+    max-width: 70%;
+    margin-left: 67px;
+  }
 }
 .cherry-cola-descript{
-  margin-top: 15px;
+  margin-top: 28%;
+  @media (max-width:760px) {
+   margin-top: 0;
+  }
   .cherry-cola-description{
     @extend %product-description;
   }
@@ -272,13 +414,20 @@
       .back-in-stock{
         font-size: $font-size-40px;
         color: $color-dark-nude;
+       
        }
     }
      .selling-products-div2{
       @extend %selling-products-div;
+      @media (max-width:760px) {
+        flex-wrap: wrap;
+      }
 
 //first product
 .pink-shadow{
+  @media (max-width:760px) {
+    width: 50%;
+  }
   .pink-shadow-img{
     max-width: 74%;
     margin-left: 50px;
@@ -304,6 +453,9 @@
 }
 //second-product
 .glittery-skyblue-shadow{
+  @media (max-width:760px) {
+    width: 50%;  
+  }
 .glittery-skyblue-shadow-img{
   max-width: 74%;
   margin-left: 50px;
@@ -331,6 +483,11 @@
 //THITD-PRODUCT
 
 .pink-gold{
+  @media (max-width:760px) {
+    width: 50%;
+    margin: 35px auto;
+    margin-bottom: 0;    
+  }
   .pink-gold-img{
     max-width: 74%;
   margin-left: 50px;
@@ -404,6 +561,11 @@
         .sign-in{
           color: #fff;
         }
+        &:hover{
+          box-shadow: 0px 10px 30px 0 rgba(109, 101, 101, 0.6);
+         cursor: pointer;
+      }
+      transition: 0.3s;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
