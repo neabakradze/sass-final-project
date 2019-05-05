@@ -61,12 +61,20 @@
         }
         .collections-header-li{
 @media (max-width:830px) {
-  display: none;
+  display: none;}
+  &:hover {
+    color: $dark-warm-pink;
+    cursor: pointer;
+  }
 }
         }
         .best-sellers-header-li{
           @media (max-width:830px) {
             display: none;
+          }
+          &:hover {
+            color: $dark-warm-pink;
+            cursor: pointer;
           }
         }
         .header-li-none{
@@ -78,7 +86,7 @@
     }
     }
     }
-}
+
 
 //main-image
 .main-image-div{
@@ -123,7 +131,7 @@
     position: absolute;
     top: 34%;
     left: 42%;
-    border: 2px black solid;
+    border: 2px $dark-brown solid;
     border-radius: 5px;
     width: 240px;
     height: 59px;
@@ -326,13 +334,15 @@
   }
   max-width: 781px;
   .vannila-img{
-    max-width: 77%;
-    margin-left: 51px;
-    @media (max-width:760px) {
-      max-width: 77%;
-      margin-left: 42px;
-      margin-top: 71px;
-    }
+    max-width: 78%;
+    display: flex;
+    margin: 0 auto;
+
+@media (max-width:670px) {
+  max-width: 91%;
+    display: flex;
+    margin: 0 auto;
+}
   }
   .vannila-descript{
     margin-top: 15px;
@@ -530,6 +540,9 @@
     display: flex;
     justify-content: center;
     color: $dark-brown;
+    @media (max-width:580px) {
+      font-size: 52px;
+    }
   }
   .footer-section-text{
     font-size: 14px;
@@ -537,6 +550,9 @@
     display: flex;
     justify-content: center;
     margin: 10px 0 30px;
+    @media (max-width:565px) {
+      margin: 16px 0 30px;
+    }
   }
 
   .form-div{
@@ -551,6 +567,12 @@
     display: flex;
     margin: 0 auto;
     width: 45%;
+    @media (max-width:655px) {
+      width: 50%;
+    }
+    @media (max-width:595px) {
+      width: 60%;
+    }
     }
     .button-sign-up-div{
       display: flex;
@@ -593,6 +615,20 @@
       max-width: 100%;
       margin-left: 30px;
     margin: 0 50px;
+    @media (max-width:800px) {
+      width: 12%;
+      height: 66px;
+    }
+    @media  (max-width:750px) {
+      margin: 0 42px 0 0;
+    }
+    @media (max-width:680px) {
+      width: 14%;
+    }
+    @media (max-width:530px) {
+      margin: 0 28px 0 0;
+    }
+   
     }
     .footer-li-div{
       display: flex;
@@ -602,6 +638,9 @@
     color:#fff;
     font-size: 16px;
     font-family: $open-sans-font;
+    @media  (max-width:750px) {
+      width: 73%;
+    }
     }
   }
 
