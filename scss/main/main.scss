@@ -3,6 +3,8 @@
 @import './modules/variable.scss';
 @import './modules/classes.scss';
 @import './modules/mixins.scss';
+@import './about.scss';
+@import './collection.scss';
 //header1
 .header{
     display: flex;
@@ -49,6 +51,18 @@
         align-items: center;
         width: 100%;
         font-family: $open-sans-font;
+        .collections-header-li-a{
+          color: $color-light-nude;
+          text-decoration: none;
+          @media (max-width:830px) {
+            display: none;}
+        }
+        .best-sellers-header-li-a{
+          color: $color-light-nude;
+          text-decoration: none;
+          @media (max-width:830px) {
+            display: none;}
+        }
         .header-li{
           &:hover {
             color: $dark-warm-pink;
@@ -60,12 +74,14 @@
             font-family: $open-sans-font;
         }
         .collections-header-li{
+         
 @media (max-width:830px) {
   display: none;}
   &:hover {
     color: $dark-warm-pink;
     cursor: pointer;
   }
+
 }
         }
         .best-sellers-header-li{
@@ -169,7 +185,7 @@
     }
     @media (max-width:1012px) {
       width: 190px;
-      height: 35px;
+      height: 41px;
       top: 38%;
       left: 40%;
     font-size: 20px;
@@ -331,12 +347,17 @@
 .vannila{
   @media (max-width:760px) {
     width: 50%;
+   
   }
   max-width: 781px;
   .vannila-img{
     max-width: 78%;
     display: flex;
     margin: 0 auto;
+    @media (max-width:760px) {
+    
+      max-width: 91%;
+    }
 
 @media (max-width:670px) {
   max-width: 91%;
@@ -369,7 +390,7 @@
 
 //third product
 .cherry-cola{
-  @media (max-width:760px) {
+  @media (max-width:800px) {
     width: 50%;
     margin: 30px auto;
   }

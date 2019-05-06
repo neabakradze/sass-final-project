@@ -1,0 +1,125 @@
+.collection-main-div{
+    margin-top: 50px;
+    @extend %selling-products-main-div;
+    .collection{
+        @extend %selling-products-div;
+        @media (max-width:960px) {
+            flex-wrap: wrap;
+          }
+
+
+//first product
+.eyeshadows{
+    @media (max-width:960px) {
+        width: 50%;}
+    .eyeshadows-img{
+        width: 60%;
+        margin-left: 94px;
+   @media (max-width:960px) {
+    width: 81%;
+   }
+    }
+    .eyeshadows-descript{
+       
+        .eyeshadows-description{
+            @extend %product-description;
+        }
+        .eyeshadows-product-name{
+            @extend %product-name;
+        }
+        .eyeshadows-price{
+            @extend %product-price;
+        }
+        .eyeshadows-button{
+            @extend %display-flex;
+            .eyeshadows-buy-now{
+                @extend %buy-now-button;
+            }
+        }
+    }
+}
+
+
+
+//second-product
+.lipsticks{
+    @media (max-width:960px) {
+        width: 50%;}
+    .lipsticks-img{
+        width: 68%;
+        margin-left: 55px;
+    }
+    .lipsticks-descript{
+        .lipsticks-description{
+            @extend %product-description;
+        }
+        .lipsticks-product-name{
+            @extend %product-name;
+        }
+        .lipsticks-price{
+            @extend %product-price;
+        }
+        .lipsticks-button{
+            @extend %display-flex;
+            .lipsticks-buy-now{
+                @extend %buy-now-button;
+            }
+        }
+    }
+}
+
+//third product
+.contours{
+    @media (max-width:960px) {
+        width: 50%;
+        margin: 25px auto;
+    }
+    .contours-img{
+        width: 100%;
+    }
+    .contours-descript{
+        margin-top: 34px;
+        .contours-description{
+            @extend %product-description;
+        }
+        .contours-product-name{
+            @extend %product-name;
+        }
+        .contours-price{
+            @extend %product-price;
+        }
+        .contours-button{
+            @extend %display-flex;
+            .contours-buy-now{
+                @extend %buy-now-button;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+

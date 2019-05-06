@@ -1,0 +1,118 @@
+
+.best-seller-div{
+    margin-top: 50px;
+    @extend %selling-products-main-div;
+    .best-seller{
+        @extend %selling-products-div;
+        @media (max-width:760px) {
+            flex-wrap: wrap;
+          }
+
+
+
+
+          .pink-gold-shadow2{
+            @media (max-width:760px) {
+                width: 50%;}
+                .pink-gold-shadow-img2{
+                    max-width: 74%;
+                    margin-left: 50px;
+                }
+                .pink-gold-shadow-descript2{
+                    margin-top: 20px;
+                    .pink-gold-shadow-description2{
+                      @extend %product-description;
+                    }
+                    .pink-gold-shadow-product-name2{
+                        @extend %product-name;
+                    }
+                    .pink-gold-shadow-price2{
+                        @extend %product-price;
+                    }
+                    .pink-gold-shadow-button2{
+                        @extend %display-flex;
+                        .pink-gold-shadow-buy-now{
+                            @extend %buy-now-button;
+                        }
+                    }
+                }
+               
+        }
+        
+
+
+.burgundy-shadow{
+    @media (max-width:760px) {
+        width: 50%;}
+        .burgundy-shadow-img{
+            max-width: 74%;
+            margin-left: 50px;
+        }
+        .burgundy-shadow-descript{
+            margin-top: 20px;
+            .burgundy-shadow-description{
+                @extend %product-description;
+            }
+            .burgundy-shadow-product-name{
+                @extend %product-name;
+            }
+            .burgundy-shadow-price{
+                @extend %product-price;
+            }
+            .burgundy-shadow-button{
+                @extend %display-flex;
+                .burgundy-shadow-buy-now{
+                    @extend %buy-now-button;
+                }
+            }
+        }
+}
+
+
+
+
+.peach-blush{
+    @media (max-width:760px) {
+        width: 50%;
+        margin: 30px auto;
+        margin-bottom: 0;
+    }
+ .peach-blush-img{
+    max-width: 74%;
+    margin-left: 50px;
+ }
+ .peach-blush-descript{
+    margin-top: 20px;
+     .peach-blush-description{
+        @extend %product-description;
+     }
+     .peach-blush-product-name{
+        @extend %product-name;
+     }
+     .peach-blush-price{
+        @extend %product-price;
+     }
+     .peach-blush-button{
+        @extend %display-flex;
+        .peach-blush-buy-now{
+            @extend %buy-now-button;
+        }
+     }
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
+
