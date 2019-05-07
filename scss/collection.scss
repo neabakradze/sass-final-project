@@ -3,24 +3,31 @@
     @extend %selling-products-main-div;
     .collection{
         @extend %selling-products-div;
-        @media (max-width:960px) {
+        @media (max-width:995px) {
             flex-wrap: wrap;
           }
 
 
 //first product
 .eyeshadows{
-    @media (max-width:960px) {
+    @media (max-width:995px) {
         width: 50%;}
+        @media (max-width:630px) {
+            width: 60%;
+            margin: 0 auto;
+    margin-bottom: 30px;
+        }
     .eyeshadows-img{
         width: 60%;
-        margin-left: 94px;
-   @media (max-width:960px) {
+        margin: 0 auto;
+        display: flex;
+   @media (max-width:995px) {
     width: 81%;
    }
+  
     }
     .eyeshadows-descript{
-       
+        margin-top: 10px;
         .eyeshadows-description{
             @extend %product-description;
         }
@@ -43,13 +50,22 @@
 
 //second-product
 .lipsticks{
-    @media (max-width:960px) {
-        width: 50%;}
+    margin-right: 55px;
+    @media (max-width:995px) {
+        width: 50%;
+        margin-right: 0px;
+    }
+    @media (max-width:630px) {
+        width: 60%;
+        margin: 0 auto;
+    }
     .lipsticks-img{
         width: 68%;
-        margin-left: 55px;
+        margin: 0 auto;
+        display: flex;
     }
     .lipsticks-descript{
+        margin-top: 10px;
         .lipsticks-description{
             @extend %product-description;
         }
@@ -70,15 +86,17 @@
 
 //third product
 .contours{
-    @media (max-width:960px) {
+    @media (max-width:995px) {
         width: 50%;
         margin: 25px auto;
     }
+    @media (max-width:630px) {
+        width: 60%;}
     .contours-img{
         width: 100%;
     }
     .contours-descript{
-        margin-top: 34px;
+        margin-top: 20px;
         .contours-description{
             @extend %product-description;
         }

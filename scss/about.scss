@@ -4,7 +4,7 @@
     @extend %selling-products-main-div;
     .best-seller{
         @extend %selling-products-div;
-        @media (max-width:760px) {
+        @media (max-width:815px) {
             flex-wrap: wrap;
           }
 
@@ -12,11 +12,17 @@
 
 
           .pink-gold-shadow2{
-            @media (max-width:760px) {
+            @media (max-width:815px) {
                 width: 50%;}
+           @media (max-width:630px) {
+            width: 60%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+           }
                 .pink-gold-shadow-img2{
                     max-width: 74%;
-                    margin-left: 50px;
+                    margin: 0 auto;
+                    display: flex;
                 }
                 .pink-gold-shadow-descript2{
                     margin-top: 20px;
@@ -42,11 +48,17 @@
 
 
 .burgundy-shadow{
-    @media (max-width:760px) {
+    @media (max-width:815px) {
         width: 50%;}
+        @media (max-width:630px) {
+            width: 60%;
+            margin: 0 auto;
+            margin-bottom: 30px;
+           }
         .burgundy-shadow-img{
             max-width: 74%;
-            margin-left: 50px;
+            margin: 0 auto;
+            display: flex;
         }
         .burgundy-shadow-descript{
             margin-top: 20px;
@@ -72,14 +84,19 @@
 
 
 .peach-blush{
-    @media (max-width:760px) {
+    @media (max-width:815px) {
         width: 50%;
-        margin: 30px auto;
+        margin: 45px auto;
         margin-bottom: 0;
     }
+    @media (max-width:630px) {
+        width: 60%;
+        margin: 0 auto;
+       }
  .peach-blush-img{
     max-width: 74%;
-    margin-left: 50px;
+    margin: 0 auto;
+    display: flex;
  }
  .peach-blush-descript{
     margin-top: 20px;

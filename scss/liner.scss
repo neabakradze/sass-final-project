@@ -1,0 +1,43 @@
+.liner-main-div{
+    @extend %selling-products-main-div;
+    margin-top: 62px;
+    .liner-div{
+        display: flex;
+        max-width: 1170px;
+        margin: 0 auto;
+        //liner images
+        .liner-img-div{
+            .liner-img1{
+                width: 65%;
+            }
+            .liner-img2{
+                width: 30%;
+            }
+        }
+        //liner description
+        .liner-descript{
+.liner-product-name{
+    font-size: 48px;
+}
+.liner-price{
+
+}
+.liner-button{
+    .liner-buy-now{
+        color: #fff;
+        background-color: #c39885;
+        line-height: normal;
+        max-width: 100%;
+        height: auto;
+        line-height: 1;
+        border-radius: 2px;
+        padding: 0 .2em;
+        border: 0;
+        cursor: pointer;
+        padding: 11px 40.7px;
+    }
+}
+        }
+
+    }
+}

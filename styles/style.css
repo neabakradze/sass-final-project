@@ -42,7 +42,7 @@ a {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-.best-seller-div, .collection-main-div, .selling-products-main-div, .selling-products-main-div2, .selling-products-main-div3 {
+.best-seller-div, .collection-main-div, .liner-main-div, .selling-products-main-div, .selling-products-main-div2, .selling-products-main-div3 {
   width: 100%; }
 
 .best-seller-div .best-seller, .collection-main-div .collection, .selling-products-main-div .selling-products-div, .selling-products-main-div2 .selling-products-div2, .selling-products-main-div3 .selling-products-div2 {
@@ -124,68 +124,150 @@ a {
 
 .best-seller-div {
   margin-top: 50px; }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .best-seller-div .best-seller {
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; } }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .best-seller-div .best-seller .pink-gold-shadow2 {
       width: 50%; } }
+  @media (max-width: 630px) {
+    .best-seller-div .best-seller .pink-gold-shadow2 {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 30px; } }
   .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-img2 {
     max-width: 74%;
-    margin-left: 50px; }
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
   .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-descript2 {
     margin-top: 20px; }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .best-seller-div .best-seller .burgundy-shadow {
       width: 50%; } }
+  @media (max-width: 630px) {
+    .best-seller-div .best-seller .burgundy-shadow {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 30px; } }
   .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-img {
     max-width: 74%;
-    margin-left: 50px; }
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
   .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-descript {
     margin-top: 20px; }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .best-seller-div .best-seller .peach-blush {
       width: 50%;
-      margin: 30px auto;
+      margin: 45px auto;
       margin-bottom: 0; } }
+  @media (max-width: 630px) {
+    .best-seller-div .best-seller .peach-blush {
+      width: 60%;
+      margin: 0 auto; } }
   .best-seller-div .best-seller .peach-blush .peach-blush-img {
     max-width: 74%;
-    margin-left: 50px; }
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
   .best-seller-div .best-seller .peach-blush .peach-blush-descript {
     margin-top: 20px; }
 
 .collection-main-div {
   margin-top: 50px; }
-  @media (max-width: 960px) {
+  @media (max-width: 995px) {
     .collection-main-div .collection {
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; } }
-  @media (max-width: 960px) {
+  @media (max-width: 995px) {
     .collection-main-div .collection .eyeshadows {
       width: 50%; } }
+  @media (max-width: 630px) {
+    .collection-main-div .collection .eyeshadows {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 30px; } }
   .collection-main-div .collection .eyeshadows .eyeshadows-img {
     width: 60%;
-    margin-left: 94px; }
-    @media (max-width: 960px) {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    @media (max-width: 995px) {
       .collection-main-div .collection .eyeshadows .eyeshadows-img {
         width: 81%; } }
-  @media (max-width: 960px) {
-    .collection-main-div .collection .lipsticks {
-      width: 50%; } }
-  .collection-main-div .collection .lipsticks .lipsticks-img {
-    width: 68%;
-    margin-left: 55px; }
-  @media (max-width: 960px) {
+  .collection-main-div .collection .eyeshadows .eyeshadows-descript {
+    margin-top: 10px; }
+  .collection-main-div .collection .lipsticks {
+    margin-right: 55px; }
+    @media (max-width: 995px) {
+      .collection-main-div .collection .lipsticks {
+        width: 50%;
+        margin-right: 0px; } }
+    @media (max-width: 630px) {
+      .collection-main-div .collection .lipsticks {
+        width: 60%;
+        margin: 0 auto; } }
+    .collection-main-div .collection .lipsticks .lipsticks-img {
+      width: 68%;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+    .collection-main-div .collection .lipsticks .lipsticks-descript {
+      margin-top: 10px; }
+  @media (max-width: 995px) {
     .collection-main-div .collection .contours {
       width: 50%;
       margin: 25px auto; } }
+  @media (max-width: 630px) {
+    .collection-main-div .collection .contours {
+      width: 60%; } }
   .collection-main-div .collection .contours .contours-img {
     width: 100%; }
   .collection-main-div .collection .contours .contours-descript {
-    margin-top: 34px; }
+    margin-top: 20px; }
+
+.liner-main-div {
+  margin-top: 62px; }
+  .liner-main-div .liner-div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto; }
+    .liner-main-div .liner-div .liner-img-div .liner-img1 {
+      width: 65%; }
+    .liner-main-div .liner-div .liner-img-div .liner-img2 {
+      width: 30%; }
+    .liner-main-div .liner-div .liner-descript .liner-product-name {
+      font-size: 48px; }
+    .liner-main-div .liner-div .liner-descript .liner-button .liner-buy-now {
+      color: #fff;
+      background-color: #c39885;
+      line-height: normal;
+      max-width: 100%;
+      height: auto;
+      line-height: 1;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      padding: 0 .2em;
+      border: 0;
+      cursor: pointer;
+      padding: 11px 40.7px; }
 
 .header {
   display: -webkit-box;
@@ -406,31 +488,49 @@ a {
     width: 100%;
     margin-top: 70px; }
 
-@media (max-width: 760px) {
+@media (max-width: 815px) {
   .selling-products-main-div .selling-products-div {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; } }
 
-@media (max-width: 760px) {
+@media (max-width: 815px) {
   .selling-products-main-div .selling-products-div .contour1descript {
     width: 50%; } }
+
+@media (max-width: 630px) {
+  .selling-products-main-div .selling-products-div .contour1descript {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px; } }
 
 .selling-products-main-div .selling-products-div .contour1descript .contour1-img {
   max-width: 100%; }
 
-@media (max-width: 760px) {
+@media (max-width: 815px) {
   .selling-products-main-div .selling-products-div .contour2 {
     width: 50%; } }
+
+@media (max-width: 630px) {
+  .selling-products-main-div .selling-products-div .contour2 {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px; } }
 
 .selling-products-main-div .selling-products-div .contour2 .contour2-img {
   max-width: 100%; }
 
-@media (max-width: 760px) {
+@media (max-width: 815px) {
   .selling-products-main-div .selling-products-div .contour-bundle {
     width: 50%;
     margin: 45px auto;
     margin-bottom: 0; } }
+
+@media (max-width: 630px) {
+  .selling-products-main-div .selling-products-div .contour-bundle {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px; } }
 
 .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-img {
   max-width: 100%; }
@@ -440,23 +540,33 @@ a {
 
 .selling-products-main-div2 {
   margin-top: 50px; }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .selling-products-main-div2 .selling-products-div2 {
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; } }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .selling-products-main-div2 .selling-products-div2 .pink-gloss {
       width: 50%; } }
+  @media (max-width: 630px) {
+    .selling-products-main-div2 .selling-products-div2 .pink-gloss {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 30px; } }
   .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-img {
     max-width: 100%; }
   .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript {
     margin-top: 15px; }
   .selling-products-main-div2 .selling-products-div2 .vannila {
     max-width: 781px; }
-    @media (max-width: 760px) {
+    @media (max-width: 815px) {
       .selling-products-main-div2 .selling-products-div2 .vannila {
         width: 50%; } }
+    @media (max-width: 630px) {
+      .selling-products-main-div2 .selling-products-div2 .vannila {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 30px; } }
     .selling-products-main-div2 .selling-products-div2 .vannila .vannila-img {
       max-width: 78%;
       display: -webkit-box;
@@ -464,12 +574,12 @@ a {
       display: -ms-flexbox;
       display: flex;
       margin: 0 auto; }
-      @media (max-width: 760px) {
+      @media (max-width: 815px) {
         .selling-products-main-div2 .selling-products-div2 .vannila .vannila-img {
           max-width: 91%; } }
       @media (max-width: 670px) {
         .selling-products-main-div2 .selling-products-div2 .vannila .vannila-img {
-          max-width: 91%;
+          max-width: 85%;
           display: -webkit-box;
           display: -webkit-flex;
           display: -ms-flexbox;
@@ -477,22 +587,26 @@ a {
           margin: 0 auto; } }
     .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript {
       margin-top: 15px; }
-      @media (max-width: 760px) {
+      @media (max-width: 815px) {
         .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript {
           margin-top: 45px; } }
-  @media (max-width: 800px) {
+  @media (max-width: 815px) {
     .selling-products-main-div2 .selling-products-div2 .cherry-cola {
       width: 50%;
       margin: 30px auto; } }
+  @media (max-width: 630px) {
+    .selling-products-main-div2 .selling-products-div2 .cherry-cola {
+      width: 60%;
+      margin: 0 auto; } }
   .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-img {
     max-width: 100%; }
-    @media (max-width: 760px) {
+    @media (max-width: 815px) {
       .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-img {
         max-width: 70%;
         margin-left: 67px; } }
   .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript {
     margin-top: 28%; }
-    @media (max-width: 760px) {
+    @media (max-width: 815px) {
       .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript {
         margin-top: 0; } }
 
@@ -510,32 +624,48 @@ a {
     .selling-products-main-div3 .back-in-stock-div .back-in-stock {
       font-size: 40px;
       color: #835f50; }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .selling-products-main-div3 .selling-products-div2 {
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; } }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .selling-products-main-div3 .selling-products-div2 .pink-shadow {
       width: 50%; } }
+  @media (max-width: 630px) {
+    .selling-products-main-div3 .selling-products-div2 .pink-shadow {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 30px;
+      margin-top: 20px; } }
   .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-img {
     max-width: 74%;
     margin-left: 50px; }
   .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript {
     margin-top: 15px; }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow {
       width: 50%; } }
+  @media (max-width: 630px) {
+    .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 30px; } }
   .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-img {
     max-width: 74%;
     margin-left: 50px; }
   .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript {
     margin-top: 15px; }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .selling-products-main-div3 .selling-products-div2 .pink-gold {
       width: 50%;
       margin: 35px auto;
       margin-bottom: 0; } }
+  @media (max-width: 630px) {
+    .selling-products-main-div3 .selling-products-div2 .pink-gold {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 30px; } }
   .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-img {
     max-width: 74%;
     margin-left: 50px; }
@@ -696,65 +826,118 @@ a {
 
 .best-seller-div {
   margin-top: 50px; }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .best-seller-div .best-seller {
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; } }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .best-seller-div .best-seller .pink-gold-shadow2 {
       width: 50%; } }
+  @media (max-width: 630px) {
+    .best-seller-div .best-seller .pink-gold-shadow2 {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 30px; } }
   .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-img2 {
     max-width: 74%;
-    margin-left: 50px; }
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
   .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-descript2 {
     margin-top: 20px; }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .best-seller-div .best-seller .burgundy-shadow {
       width: 50%; } }
+  @media (max-width: 630px) {
+    .best-seller-div .best-seller .burgundy-shadow {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 30px; } }
   .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-img {
     max-width: 74%;
-    margin-left: 50px; }
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
   .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-descript {
     margin-top: 20px; }
-  @media (max-width: 760px) {
+  @media (max-width: 815px) {
     .best-seller-div .best-seller .peach-blush {
       width: 50%;
-      margin: 30px auto;
+      margin: 45px auto;
       margin-bottom: 0; } }
+  @media (max-width: 630px) {
+    .best-seller-div .best-seller .peach-blush {
+      width: 60%;
+      margin: 0 auto; } }
   .best-seller-div .best-seller .peach-blush .peach-blush-img {
     max-width: 74%;
-    margin-left: 50px; }
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
   .best-seller-div .best-seller .peach-blush .peach-blush-descript {
     margin-top: 20px; }
 
 .collection-main-div {
   margin-top: 50px; }
-  @media (max-width: 960px) {
+  @media (max-width: 995px) {
     .collection-main-div .collection {
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; } }
-  @media (max-width: 960px) {
+  @media (max-width: 995px) {
     .collection-main-div .collection .eyeshadows {
       width: 50%; } }
+  @media (max-width: 630px) {
+    .collection-main-div .collection .eyeshadows {
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 30px; } }
   .collection-main-div .collection .eyeshadows .eyeshadows-img {
     width: 60%;
-    margin-left: 94px; }
-    @media (max-width: 960px) {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    @media (max-width: 995px) {
       .collection-main-div .collection .eyeshadows .eyeshadows-img {
         width: 81%; } }
-  @media (max-width: 960px) {
-    .collection-main-div .collection .lipsticks {
-      width: 50%; } }
-  .collection-main-div .collection .lipsticks .lipsticks-img {
-    width: 68%;
-    margin-left: 55px; }
-  @media (max-width: 960px) {
+  .collection-main-div .collection .eyeshadows .eyeshadows-descript {
+    margin-top: 10px; }
+  .collection-main-div .collection .lipsticks {
+    margin-right: 55px; }
+    @media (max-width: 995px) {
+      .collection-main-div .collection .lipsticks {
+        width: 50%;
+        margin-right: 0px; } }
+    @media (max-width: 630px) {
+      .collection-main-div .collection .lipsticks {
+        width: 60%;
+        margin: 0 auto; } }
+    .collection-main-div .collection .lipsticks .lipsticks-img {
+      width: 68%;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+    .collection-main-div .collection .lipsticks .lipsticks-descript {
+      margin-top: 10px; }
+  @media (max-width: 995px) {
     .collection-main-div .collection .contours {
       width: 50%;
       margin: 25px auto; } }
+  @media (max-width: 630px) {
+    .collection-main-div .collection .contours {
+      width: 60%; } }
   .collection-main-div .collection .contours .contours-img {
     width: 100%; }
   .collection-main-div .collection .contours .contours-descript {
-    margin-top: 34px; }
+    margin-top: 20px; }
