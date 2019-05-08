@@ -6,6 +6,8 @@
 @import './about.scss';
 @import './collection.scss';
 @import './liner.scss';
+@import './contour.scss';
+@import './highlights.scss';
 //header1
 .header{
     display: flex;
@@ -242,6 +244,9 @@
            @extend %display-flex;
            .buy-now-button{
            @extend %buy-now-button;
+           .button-a1{
+             @extend %button-a;
+           }
           }
        }
        
@@ -273,6 +278,9 @@
             @extend %display-flex;
              .buy-now-button{
                 @extend %buy-now-button;
+                .button-a2{
+                  @extend %button-a;
+                }
              }
           }
       }
@@ -307,6 +315,9 @@
         @extend %display-flex;
     .contour-button{
         @extend %buy-now-button;
+        .button-a3{
+          @extend %button-a;
+        }
     }
     }
   }

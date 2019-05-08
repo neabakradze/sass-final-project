@@ -1,0 +1,142 @@
+.highlight-main-page{
+    margin-bottom: 110px;
+    @extend %selling-products-main-div;
+    .highlight-page{
+        @extend %selling-products-div;
+        @media (max-width:970px) {
+          flex-wrap: wrap;
+        }
+        @media (max-width:1200px) {
+            padding: 0 25px;
+        }
+
+        //first product
+.highlight1{
+  @media (max-width:970px) {
+    width: 45%;
+    margin-left: 30px;
+  }
+  @media (max-width:636px) {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+   }
+    .highlight1-img{
+width: 100%;
+    }
+    .highlight1-descript{
+        margin-top: 10px;
+        .highlight1-description{
+            @extend %product-description;
+        }
+        .highlight1-product-name{
+            @extend %product-name;
+        }
+        .highlight1-price{
+            @extend %product-price;
+        }
+        .highlight1-button{
+            @extend %display-flex;
+            .highlight1-buy-now{
+                @extend %buy-now-button;
+                .highlight1-button-a{
+                    @extend %button-a;
+                }
+            }
+        }
+    }
+}
+
+//second product
+.highlight2{
+   margin-left: 20px;
+   @media (max-width:970px) {
+    width: 45%;
+}
+@media (max-width:636px) {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+   }
+    .highlight2-img{
+width: 100%;
+    }
+    .highlight2-descript{
+        margin-top: 10px;
+        .highlight2-description{
+            @extend %product-description;
+        }
+        .highlight2-product-name{
+            @extend %product-name;
+        }
+        .highlight2-price{
+            @extend %product-price;
+        }
+        .highlight2-button{
+            @extend %display-flex;
+            .highlight2-buy-now{
+                @extend %buy-now-button;
+                .highlight2-button-a{
+                    @extend %button-a;
+                }
+            }
+        }
+    }
+}
+
+
+//third product
+
+.highlight3{
+    margin-left: 20px;
+   @media (max-width:636px) {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+   }
+    @media (max-width:970px) {
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+   
+   
+    .highlight3-img{
+width: 100%;
+    }
+    .highlight3-descript{
+        margin-top: 10px;
+        .highlight3-description{
+            @extend %product-description;
+        }
+        .highlight3-product-name{
+            @extend %product-name;
+        }
+        .highlight3-price{
+            @extend %product-price;
+        }
+        .highlight3-button{
+            @extend %display-flex;
+            .highlight3-buy-now{
+                @extend %buy-now-button;
+                .highlight3-button-a{
+                    @extend %button-a;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
