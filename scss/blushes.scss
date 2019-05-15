@@ -1,0 +1,111 @@
+.blushes-main-page{
+    @extend %selling-products-main-div;
+    .blushes-main{
+  @extend %selling-products-div;
+
+//first product
+.peach-blush{
+    max-width: 775px;
+    .peach-blush-img{
+        width: 92%;
+        margin-top: 40px;
+    }
+    .peach-blush-descript{
+        .peach-blush-description{
+            @extend %product-description;
+        }
+        .peach-blush-product-name{
+            @extend %product-name;
+        
+        }
+        .peach-blush-price{
+            @extend %product-price;
+        }
+        .peach-blush-button{
+            @extend %display-flex;
+            .peach-blush-buy-now{
+                @extend %buy-now-button;
+                .peach-blush-button-a{
+                    @extend %button-a;
+                }
+            }
+        }
+    }
+}
+
+
+
+//second product
+.pink-blush{
+    .pink-blush-img{
+      width: 100%;
+    }
+    .pink-blush-descript{
+        .pink-blush-description{
+            @extend %product-description;
+        }
+        .pink-blush-product-name{
+            @extend %product-name;
+        }
+        .pink-blush-price{
+            @extend %product-price;
+        }
+       .pink-blush-button{
+        @extend %display-flex;
+           .pink-blush-buy-now{
+            @extend %buy-now-button;
+               .pink-blush-button-a{
+                @extend %button-a;
+               }
+           }
+       }
+    
+    }
+}
+
+
+//third product
+.red-blush{
+    .red-blush-img{
+     width: 100%;
+    }
+    .red-blush-descript{
+        .red-blush-description{
+            @extend %product-description;
+        }
+        .red-blush-product-name{
+            @extend %product-name;
+        }
+        .red-blush-price{
+            @extend %product-price;
+        }
+        .red-blush-button{
+            @extend %display-flex;
+            .red-blush-buy-now{
+                @extend %buy-now-button;
+                .red-blush-button-a{
+                    @extend %button-a;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
