@@ -10,7 +10,12 @@
 @import './highlights.scss';
 @import './blushes.scss';
 @import './primers.scss';
+@import './singles.scss';
+@import './glosses.scss';
+@import './cream.scss';
+@import './palletes.scss';
 //header1
+
 .header{
     display: flex;
     align-content: center;
@@ -35,11 +40,9 @@
     }
     .header-logo{
         margin-left: 30px;
-        width: 100px;
+        width: 63%;
         max-width: 100%;
-        @media (max-width:800px) {
-          width: 11%;
-        }
+       
     
     }
     .header-ul-div{
@@ -61,12 +64,20 @@
           text-decoration: none;
           @media (max-width:830px) {
             display: none;}
+            &:hover {
+              color: $dark-warm-pink;
+              cursor: pointer;
+            }
         }
         .best-sellers-header-li-a{
           color: $color-light-nude;
           text-decoration: none;
           @media (max-width:830px) {
             display: none;}
+            &:hover {
+              color: $dark-warm-pink;
+              cursor: pointer;
+            }
         }
         .header-li{
           &:hover {
@@ -112,101 +123,66 @@
 //main-image
 .main-image-div{
   position: relative;
+  background: #f8e0d6;
+  width: 100%;
   font-family: $open-sans-font;
-  .main-image-text{
-    font-size: 48px;
-    color: #fff;
-    position: absolute;
-    top: 15%;
-    left: 29px;
-    border-radius: 8px;
-    transition: 0.3s;
-    &:hover{
-      box-shadow: 0px 12px 51px 0 rgba(30, 30, 30, 0.52);
-      cursor: pointer;
+  .main-image1{
+    width: 50%;
+    margin-left: 0.5%;
+    @media (max-width:943px) {
+      width: 65%;
+      display: flex;
+      margin: 0 auto;
     }
-    @media (max-width:1440px) {
-      font-size: 40px;
-      top: 17%;
-    }
-    @media (max-width:1278px) {
-     font-size: 35px;
-     top: 18%;
-    }
-    @media (max-width:1125px) {
-      font-size: 30px;
-      top: 20%;
-     }
-     @media (max-width:967px) {
-      font-size: 25px;
-      top: 23%;
-     }
-     @media (max-width:813px) {
-      font-size: 22px;
-      top: 26%;
-     }
-  }
-  .main-image-button{
-    font-size: 40px;
-    color: #fff;
-    position: absolute;
-    top: 34%;
-    left: 42%;
-    border: 2px $dark-brown solid;
-    border-radius: 5px;
-    width: 240px;
-    height: 59px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.3s;
-    &:hover{
-      box-shadow: 0px 12px 51px 0 rgba(30, 30, 30, 0.52);
-      cursor: pointer;
-    }
-    @media (max-width:1324px) {
-      left: 41%;
-    }
-    @media (max-width:1255px) {
-      width: 230px;
-      height: 50px;
-      top: 35%;
-      left: 41%;
-    font-size: 35px;
-    }
-    @media (max-width:1188px) {
-      width: 220px;
-      height: 45px;
-      top: 36%;
-      left: 40%;
-    font-size: 30px;
-    }
-    @media (max-width:1088px) {
-      width: 205px;
-      height: 38px;
-      top: 37%;
-      left: 40%;
-    font-size: 25px;
-    }
-    @media (max-width:1012px) {
-      width: 190px;
-      height: 41px;
-      top: 38%;
-      left: 40%;
-    font-size: 20px;
-    }
-    @media (max-width:940px) {
-      width: 175px;
-    }
-    @media (max-width:870px) {
-      left: 42%;
-      width: 139px;
+    @media (max-width:840px) {
+      width: 85%;
     }
   }
-    .main-image{
-           width: 100%;
-           margin-top: 70px;
-       }
+  .main-image2{
+    width: 49%;
+    @media (max-width:943px) {
+      width: 65%;
+      display: flex;
+      margin: 0 auto;
+    }
+    @media (max-width:840px) {
+      width: 85%;
+    }
+  }
+  .main-title{
+    position: absolute;
+    color: #fff;
+    font-size: 55px;
+    bottom: 4%;
+    left: 3%;
+    cursor: pointer;
+    text-shadow: 2px 2px #b07a66;
+    &:hover{
+      text-shadow: 2px 2px #85565e;
+    }
+    @media (max-width:1665px) {
+      font-size:50px ;
+    
+    }
+    @media (max-width:1200px) {
+      font-size: 48px;
+     
+    }
+    @media (max-width:943px) {
+      top: 45%;
+      left: 19%;
+    }
+    @media (max-width:840px) {
+      top: 45%;
+      left: 11%;
+    }
+    @media (max-width:700px)  {
+      font-size:45px ;
+    }
+    @media (max-width:560px)  {
+      font-size:40px ;
+    }
+  }
    }
 
 
@@ -370,6 +346,9 @@
         @extend %display-flex;
 .pink-gloss-button{
   @extend %buy-now-button;
+  .pink-lipgloss-button-a{
+    @extend %button-a;
+  }
 }
       }
 
@@ -405,9 +384,12 @@
   }
   .vannila-descript{
     margin-top: 15px;
-    @media (max-width:815px) {
-      margin-top: 45px;
-    }
+    @media (max-width: 815px){
+    margin-top: 45px;
+}
+@media (max-width: 671px){
+  margin-top: 75px;
+}
     .vannila-description{
       @extend %product-description;
     }
@@ -421,6 +403,9 @@
       @extend %display-flex;
       .vannila-button{
         @extend %buy-now-button;
+        .vannilaa-button-a{
+          @extend %button-a;
+        }
       }
     }
   }
@@ -462,6 +447,9 @@
     @extend %display-flex;
     .cherry-cola-button{
       @extend %buy-now-button;
+      .cherry-cola-button-a{
+        @extend %button-a;
+      }
     }
   }
 }
@@ -527,6 +515,9 @@
       @extend %display-flex;
       .pink-shadow-button{
         @extend %buy-now-button;
+        .pink-shadow-button-a{
+          @extend %button-a;
+        }
       }
     }
   }
@@ -561,6 +552,9 @@
 }
 .glittery-skyblue-shadow-button{
   @extend %buy-now-button;
+  .glittery-skyblue-shadow-button-a{
+    @extend %button-a;
+  }
 }
 }
 }
@@ -596,6 +590,9 @@
       @extend %display-flex;
       .pink-gold-button{
         @extend %buy-now-button;
+        .pink-gold-button-a{
+          @extend %button-a;
+        }
       }
     }
   }

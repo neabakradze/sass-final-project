@@ -1,0 +1,79 @@
+.palletes-main-page{
+    margin-top:50px;
+    @extend %selling-products-main-div;
+    .palletes-main{
+        @extend %selling-products-div;
+
+//first product
+.nude{
+
+.nude-img{
+width:100% ;
+}
+.nude-descript{
+.nude-description{
+    @extend %product-description;
+}
+.nude-product-name{
+    @extend %product-name;
+}
+.nude-price{
+    @extend %product-price;
+}
+.nude-button-div{
+    @extend %display-flex;
+    .nude-buy-now{
+        @extend %buy-now-button;
+        .nude-button-a{
+            @extend %button-a;
+        }
+    }
+}
+}
+
+
+
+}
+
+
+
+
+
+
+//second product{
+    .grey{
+        .grey-img{
+width: 100%;
+        }
+
+.grey-descript{
+    .grey-description{
+        @extend %product-description;
+    }
+    .grey-product-name{
+        @extend %product-name;
+    }
+    .grey-price{
+        @extend %product-price;
+
+}
+    }
+    .grey-button-div{
+        @extend %display-flex;
+        .grey-buy-now{
+            @extend %buy-now-button;
+            .grey-button-a{
+                @extend %button-a;
+            }
+        }
+    }
+}
+
+
+
+
+    }
+
+
+
+    }

@@ -1,0 +1,309 @@
+//first div
+.singles-main-page1{
+    margin-top:50px;
+    @extend %selling-products-main-div;
+    .singles-main-page1{
+        @extend %selling-products-div;
+
+
+//first product
+.dark-green{
+
+.dark-green-img{
+    max-width: 100%;
+
+}
+
+.dark-green-descript{
+    .dark-green-description{
+        @extend %product-description;
+    }  
+    .dark-green-product-name{
+        @extend %product-name;
+    }
+    .dark-green-price{
+        @extend %product-price;
+    }
+    .dark-green-button-div{
+        @extend %display-flex;
+        .dark-green-buy-now{
+             @extend %buy-now-button;
+            .dark-green-button-a{
+                @extend %button-a;
+            }
+        }
+    }
+}
+}
+
+//second product
+.yellow{
+ 
+.yellow-img{
+    max-width: 100%;
+}
+.yellow-descript{
+    .yellow-description{
+        @extend %product-description;
+    }
+    .yellow-product-name{
+        @extend %product-name;
+    }
+    .yellow-price{
+        @extend %product-price;
+    }
+    .yellow-button-div{
+        @extend %display-flex;
+       
+        .yellow-buy-now{
+            @extend %buy-now-button;
+            .yellow-button-a{
+                @extend %button-a;
+            }
+        }
+    }
+}
+}
+
+//third product
+.pink{
+
+    .pink-img{
+        max-width: 100%;
+       
+    }
+
+.pink-descript{
+    .pink-description{
+        @extend %product-description;
+    }
+    .pink-product-name{
+        @extend %product-name;
+    }
+    .pink-price{
+        @extend %product-price;
+      
+    }
+    .pink-button-div{
+        @extend %display-flex;
+        .pink-buy-now{
+            @extend %buy-now-button;
+            .pink-button-a{
+                @extend %button-a;
+            }
+        }
+    }
+}
+}
+//
+
+    }
+}
+
+
+
+
+
+//second-div
+.singles-main-page2{
+    margin-top: 50px;
+    @extend %selling-products-main-div;
+.singles-main2{
+    @extend %selling-products-div;
+
+//first-product
+.blue{
+ .blue-img{
+    max-width: 100%;
+ }
+ .blue-descript{
+.blue-description{
+    @extend %product-description;
+}
+.blue-product-name{
+    @extend %product-name;
+}
+.blue-price{
+    @extend %product-price;
+}
+.blue-button-div{
+    @extend %display-flex;
+    .blue-buy-now{
+        @extend %buy-now-button;
+        .blue-button-a{
+            @extend %button-a;
+        }
+    }
+}
+ }
+}
+
+//second product
+.burgundy{
+.burgundy-img{
+    max-width: 100%;
+}
+.burgundy-descript{
+    .burgundy-description{
+        @extend %product-description;
+    }
+    .burgundy-product-name{
+        @extend %product-name;
+    }
+    .burgundy-price{
+        @extend %product-price;
+    }
+    .burgundy-button-div{
+        @extend %display-flex;
+        .burgundy-buy-now{
+            @extend %buy-now-button;
+            .burgundy-button-a{
+                @extend %button-a;
+            }
+        }
+    }
+}
+}
+
+
+//third product
+.purple{
+.purple-img{
+    max-width: 100%;
+}
+.purple-descript{
+    .purple-description{
+        @extend %product-description;
+    }
+    .purple-product-name{
+        @extend %product-name;
+    }
+    .purple-price{
+        @extend %product-price;
+    }
+    .purple-button-div{
+        @extend %display-flex;
+        .purple-buy-now{
+            @extend %buy-now-button;
+            .purple-button-a{
+                @extend %button-a;
+            }
+        }
+    }
+}
+
+
+}
+
+}
+}
+
+
+
+//third div
+.singles-main-page3{
+    margin-bottom: 110px;
+    margin-top: 50px;
+    @extend %selling-products-main-div;
+.singles-main3{
+    @extend %selling-products-div;
+
+//first product
+.pink-gold{
+
+.pink-gold-img{
+    max-width: 100%;
+}
+.pink-gold-descript{
+    .pink-gold-description{
+        @extend %product-description;
+    }
+    .pink-gold-product-name{
+        @extend %product-name;
+    }
+.pink-gold-price{
+    @extend %product-price;
+}
+.pink-gold-button-div{
+    @extend %display-flex;
+    .pink-gold-buy-now{
+        @extend %buy-now-button;
+        .pink-gold-button-a{
+            @extend %button-a;
+        }
+    }
+}
+}
+}
+
+//second-product
+.skyblue{
+.skyblue-img{
+    max-width: 100%;
+}
+
+.skyblue-descript{
+    .skyblue-description{
+        @extend %product-description;
+    }
+    .skyblue-product-name{
+        @extend %product-name;
+    }
+    .skyblue-price{
+        @extend %product-price;
+    }
+    .skyblue-button-div{
+        @extend %display-flex;
+        .skyblue-buy-now{
+            @extend %buy-now-button;
+            .skyblue-button-a{
+                @extend %button-a;
+            }
+        }
+    }
+}
+
+
+}
+
+
+//third product
+.glittery-blue{
+.glittery-blue-img{
+    max-width: 100%;
+}
+.glittery-blue-descript{
+    .glittery-blue-description{
+        @extend %product-description;
+    }
+    .glittery-blue-product-name{
+            @extend %product-name;
+    }
+    .glittery-blue-price{
+        @extend %product-price;
+    }
+    .glittery-blue-button-div{
+        @extend %display-flex;
+        .glittery-blue-buy-now{
+            @extend %buy-now-button;
+            .glittery-blue-button-a{
+                @extend %button-a;
+            }
+        }
+    }
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+}
+}
