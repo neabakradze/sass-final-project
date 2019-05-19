@@ -1,14 +1,24 @@
 //first div
 .singles-main-page1{
+    padding: 5px;
     margin-top:50px;
     @extend %selling-products-main-div;
     .singles-main-page1{
+        @media (max-width:750px) {
+            flex-wrap: wrap;
+          }
         @extend %selling-products-div;
 
 
 //first product
 .dark-green{
-
+  @media (max-width:750px) {
+      width: 50%;
+  }
+  @media (max-width:590px) {
+    width: 70%;
+    margin: 0 auto;
+}
 .dark-green-img{
     max-width: 100%;
 
@@ -38,7 +48,13 @@
 
 //second product
 .yellow{
- 
+    @media (max-width:750px) {
+        width: 50%;
+    }
+    @media (max-width:590px) {
+        width: 70%;
+        margin: 0 auto;
+    }
 .yellow-img{
     max-width: 100%;
 }
@@ -67,7 +83,15 @@
 
 //third product
 .pink{
-
+    @media (max-width:750px) {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    @media (max-width:590px) {
+        width: 70%;
+        margin: 0 auto;
+    }
     .pink-img{
         max-width: 100%;
        
@@ -106,13 +130,24 @@
 
 //second-div
 .singles-main-page2{
+    padding: 5px;
     margin-top: 50px;
     @extend %selling-products-main-div;
 .singles-main2{
+    @media (max-width:750px) {
+        flex-wrap: wrap;
+      }
     @extend %selling-products-div;
 
 //first-product
 .blue{
+    @media (max-width:750px) {
+        width: 50%;
+    }
+    @media (max-width:590px) {
+        width: 70%;
+        margin: 0 auto;
+    }
  .blue-img{
     max-width: 100%;
  }
@@ -140,6 +175,13 @@
 
 //second product
 .burgundy{
+    @media (max-width:750px) {
+        width: 50%;
+    }
+    @media (max-width:590px) {
+        width: 70%;
+        margin: 0 auto;
+    }
 .burgundy-img{
     max-width: 100%;
 }
@@ -168,6 +210,15 @@
 
 //third product
 .purple{
+    @media (max-width:750px) {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    @media (max-width:590px) {
+        width: 70%;
+        margin: 0 auto;
+    }
 .purple-img{
     max-width: 100%;
 }
@@ -202,15 +253,26 @@
 
 //third div
 .singles-main-page3{
+    padding: 5px;
     margin-bottom: 110px;
     margin-top: 50px;
     @extend %selling-products-main-div;
 .singles-main3{
+    @media (max-width:750px) {
+        flex-wrap: wrap;
+      }
     @extend %selling-products-div;
 
 //first product
 .pink-gold{
-
+    @media (max-width:750px) {
+        width: 50%;
+    
+    }
+    @media (max-width:590px) {
+        width: 70%;
+        margin: 0 auto;
+    }
 .pink-gold-img{
     max-width: 100%;
 }
@@ -238,6 +300,13 @@
 
 //second-product
 .skyblue{
+    @media (max-width:750px) {
+        width: 50%;
+    }
+    @media (max-width:590px) {
+        width: 70%;
+        margin: 0 auto;
+    }
 .skyblue-img{
     max-width: 100%;
 }
@@ -269,6 +338,14 @@
 
 //third product
 .glittery-blue{
+    @media (max-width:750px) {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    @media (max-width:590px) {
+        width: 70%;
+    }
 .glittery-blue-img{
     max-width: 100%;
 }

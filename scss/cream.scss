@@ -1,0 +1,238 @@
+//first div
+.lipsticks-main-page1{
+    margin-top:50px;
+    @extend %selling-products-main-div;
+.lipsticks-main1{
+    @extend %selling-products-div;
+//first product
+.bright-pink{
+
+
+.bright-pink-img{
+    max-width: 100%;
+}
+
+.bright-pink-descript{
+.bright-pink-description{
+    @extend %product-description;
+}
+.bright-pink-product-name{
+    @extend %product-name;
+}
+.bright-pink-price{
+    @extend %product-price;
+}
+.bright-pink-button-div{
+    @extend %display-flex;
+    .bright-pink-buy-now {
+        @extend %buy-now-button;
+        .bright-pink-button-a{
+            @extend %button-a;
+        }
+    }
+}
+}
+}
+
+
+//second product
+.brown-pink{
+   
+.brown-pink-img{
+    max-width: 92%;
+}
+
+.brown-pink-descript{
+  
+    .brown-pink-description{
+        @extend %product-description;
+    }
+    .brown-pink-product-name{
+        @extend %product-name;
+    }
+    .brown-pink-price{
+        @extend %product-price;
+    }
+    .brown-pink-button-div{
+        @extend %display-flex;
+        .brown-pink-buy-now{
+            @extend %buy-now-button;
+            .brown-pink-button-a{
+                @extend %button-a;
+            }
+        }
+    }
+}
+}
+
+//third-product
+.burgundy{
+
+
+.burgundy-img{
+    max-width: 100%;
+}
+
+
+.burgundy-descript{
+
+.burgundy-description{
+    @extend %product-description;
+}
+
+.burgundy-product-name{
+    @extend %product-name;
+}
+.burgundy-price{
+    @extend %product-price;
+}
+.burgundy-button-div{
+    @extend %display-flex;
+    .burgundy-buy-now{
+        @extend %buy-now-button;
+        .burgundy-button-a{
+            @extend %button-a;
+        }
+    }
+}
+}
+}
+
+
+}
+}
+
+
+//second div
+.lipsticks-main-page2{
+    margin-top:50px;
+    margin-bottom:80px;
+    @extend %selling-products-main-div;
+    .lipsticks-main2{
+        @extend %selling-products-div;
+
+
+
+    //first product
+    .pink{
+
+        width: 42%;
+        .pink-img{
+            max-width: 92%;
+        }
+        
+        
+        .pink-descript{
+        
+        .pink-description{
+            @extend %product-description;
+        }
+        
+        .pink-product-name{
+            @extend %product-name;
+        }
+        .pink-price{
+            @extend %product-price;
+        }
+        .pink-button-div{
+            @extend %display-flex;
+            .pink-buy-now{
+                @extend %buy-now-button;
+                .pink-button-a{
+                    @extend %button-a;
+                }
+            }
+        }
+        }
+        
+        
+        
+        }
+
+
+//second product
+.warm-pink{
+    width: 38.5%;
+
+    .warm-pink-img{
+        max-width: 100%;
+    }
+    
+    
+    .warm-pink-descript{
+    
+    .warm-pink-description{
+        @extend %product-description;
+    }
+    
+    .warm-pink-product-name{
+        @extend %product-name;
+    }
+    .warm-pink-price{
+        @extend %product-price;
+    }
+    .warm-pink-button-div{
+        @extend %display-flex;
+        .warm-pink-buy-now{
+            @extend %buy-now-button;
+            .warm-pink-button-a{
+                @extend %button-a;
+            }
+        }
+    }
+    }
+    }
+
+
+//third product
+
+
+.collection{
+width: 38%;
+
+    .collection-img{
+        max-width: 100%;
+    }
+    
+    
+    .collection-descript{
+    
+    .collection-description{
+        @extend %product-description;
+    }
+    
+    .collection-product-name{
+        @extend %product-name;
+    }
+    .collection-price{
+        @extend %product-price;
+    }
+    .collection-button-div{
+        @extend %display-flex;
+        .collection-buy-now{
+            @extend %buy-now-button;
+            .collection-button-a{
+                @extend %button-a;
+            }
+        }
+    }
+    }
+    
+    
+    
+    }
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+ 
