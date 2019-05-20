@@ -1,13 +1,22 @@
 .glosses-main-page{
-    margin-top:50px;
+    margin-top: 70px;
+    margin-bottom: 80px;
     @extend %selling-products-main-div;
     .glosses-main{
-
+        @media (max-width:700px) {
+            flex-wrap: wrap;
+        }
         @extend %selling-products-div;
 
         //first product
         .light-grey{
-             
+             @media (max-width:700px) {
+                 width: 50%;
+                 margin: 0 auto;
+             }
+             @media (max-width:450px) {
+                width: 60%;
+            }
 .light-grey-img{
     max-width: 100%;
 }
@@ -35,7 +44,13 @@
         }
 //second product
 .pink-grey{
-
+    @media (max-width:700px) {
+        width: 50%;
+        margin: 0 auto;
+    }
+    @media (max-width:450px) {
+        width: 60%;
+    }
 .pink-grey-img{
     max-width: 100%;
 }
@@ -65,7 +80,13 @@
 
 //third product
 .pink-gloss{
-
+    @media (max-width:700px) {
+        width: 60%;
+        margin: 0 auto;
+    }
+    @media (max-width:450px) {
+        width: 70%;
+    }
 .pink-img{
     max-width: 90%;
     display: flex;

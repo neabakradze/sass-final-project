@@ -4,10 +4,17 @@
     @extend %selling-products-main-div;
     .palletes-main{
         @extend %selling-products-div;
+        @media (max-width:880px) {
+            flex-wrap: wrap;
+        }
 
 //first product
 .nude{
-
+@media (max-width:880px) {
+    width: 70%;
+    margin: 0 auto;
+  
+}
 .nude-img{
 width:100% ;
 }
@@ -43,6 +50,11 @@ width:100% ;
 
 //second product{
     .grey{
+        @media (max-width:880px) {
+            width: 70%;
+            margin: 0 auto;
+          margin-top: 50px;
+        }
         .grey-img{
 width: 100%;
         }

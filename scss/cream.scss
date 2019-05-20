@@ -1,15 +1,28 @@
 //first div
 .lipsticks-main-page1{
+ 
+    padding: 10px;
     margin-top:50px;
     @extend %selling-products-main-div;
 .lipsticks-main1{
+    @media (max-width:630px) {
+        flex-wrap: wrap;
+    }
     @extend %selling-products-div;
 //first product
 .bright-pink{
-
-
+@media (max-width:630px) {
+    width: 50%;
+    margin: 0 auto;
+}
+@media (max-width:480px) {
+    width: 60%;
+}
 .bright-pink-img{
     max-width: 100%;
+    @media (max-width:630px) {
+        max-width: 96%;
+    }
 }
 
 .bright-pink-descript{
@@ -37,9 +50,18 @@
 
 //second product
 .brown-pink{
-   
+    @media (max-width:630px) {
+        width: 50%;
+        margin: 0 auto;
+    }
+    @media (max-width:480px) {
+        width: 60%;
+    }
 .brown-pink-img{
     max-width: 92%;
+    @media (max-width:630px) {
+       width: 100%;
+    }
 }
 
 .brown-pink-descript{
@@ -67,8 +89,14 @@
 
 //third-product
 .burgundy{
-
-
+    @media (max-width:630px) {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    @media (max-width:480px) {
+        width: 60%;
+    }
 .burgundy-img{
     max-width: 100%;
 }
@@ -105,20 +133,31 @@
 
 //second div
 .lipsticks-main-page2{
+    padding: 10px;
     margin-top:50px;
     margin-bottom:80px;
     @extend %selling-products-main-div;
     .lipsticks-main2{
         @extend %selling-products-div;
-
-
+        @media (max-width:630px) {
+            flex-wrap: wrap;
+        }
 
     //first product
     .pink{
-
+        @media (max-width:630px) {
+            width: 50%;
+            margin: 0 auto;
+        }
+        @media (max-width:480px) {
+            width: 60%;
+        }
         width: 42%;
         .pink-img{
             max-width: 92%;
+            @media (max-width:630px) {
+                max-width: 100%;
+            }
         }
         
         
@@ -153,7 +192,13 @@
 //second product
 .warm-pink{
     width: 38.5%;
-
+    @media (max-width:630px) {
+        width: 50%;
+        margin: 0 auto;
+    }
+    @media (max-width:480px) {
+        width: 60%;
+    }
     .warm-pink-img{
         max-width: 100%;
     }
@@ -189,7 +234,14 @@
 
 .collection{
 width: 38%;
-
+@media (max-width:630px) {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+@media (max-width:480px) {
+    width: 60%;
+}
     .collection-img{
         max-width: 100%;
     }
