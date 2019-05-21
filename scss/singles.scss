@@ -254,7 +254,7 @@
 //third div
 .singles-main-page3{
     padding: 5px;
-    margin-bottom: 110px;
+    margin-bottom: 50px;
     margin-top: 50px;
     @extend %selling-products-main-div;
 .singles-main3{
@@ -372,15 +372,126 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-
 }
+}
+
+
+
+.singles-models-main{
+    background-image: linear-gradient(#f7f7f7,#f1f0f0);
+    width: 100%;
+     font-family: $open-sans-font;
+     margin-bottom: 80px;
+     padding-bottom: 30px;
+.title-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    .title{
+        font-weight: 550;
+        font-size: 1.583rem;
+        &:hover{
+            color: $violet-color2;
+            cursor: pointer;
+        }
+        @media (max-width:540px) {
+            font-size: 21px;
+        }
+    }
+}
+
+
+    .singles-models{
+        margin: 0 auto;
+        width: 1170px;
+        max-width: 100%;
+        @media (max-width:800px) {
+            flex-wrap: wrap;
+        }
+
+.model1{
+    width: 20.2%;
+    margin-left: 3%;
+    @media (max-width:800px) {
+        width: 31.5%;
+        margin-left: 16%;
+        margin-bottom: 1%;  
+    }
+    @media (max-width:540px) {
+        width: 33.5%;
+        margin-left: 13%;
+        margin-bottom: 1%;
+    }
+    @media (max-width:480px) {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+    
+    }
+}
+
+.model2{
+    width: 21.4%;
+    margin-left: 3%;
+    @media (max-width:800px) {
+        width: 33.3%;
+        margin-left: 3.5%;
+        margin-bottom: 1%;
+    }
+    @media (max-width:540px) {
+        width: 35.3%;
+        margin-left: 3.5%;
+        margin-bottom: 1%;
+    }
+    @media (max-width:480px) {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 25px;
+    }
+}
+
+
+.model3{
+    width: 20%;
+    margin-left: 3%;
+    @media (max-width:800px) {
+        width: 33%;
+        margin-left: 15%;
+    }
+    @media (max-width:540px) {
+        width: 35%;
+    margin-left: 12.3%;
+    }
+    @media (max-width:480px) {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 25px;
+    }
+}
+
+.model4{
+    width: 20%;
+    margin-left: 3%;
+    @media (max-width:800px) {
+        width: 33.3%;
+        margin-left: 3%;   
+    }
+    @media (max-width:540px) {
+        width: 35.3%;
+    margin-left: 3%;
+    }
+    @media (max-width:480px) {
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 25px;
+    }
+}
+
+
+
+    }
 }

@@ -64,7 +64,14 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-size: 25px; }
+  font-size: 25px;
+  font-weight: 550; }
+  @media (max-width: 480px) {
+    .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-descript2 .pink-gold-shadow-description2, .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-descript .burgundy-shadow-description, .best-seller-div .best-seller .peach-blush .peach-blush-descript .peach-blush-description, .collection-main-div .collection .eyeshadows .eyeshadows-descript .eyeshadows-description, .collection-main-div .collection .lipsticks .lipsticks-descript .lipsticks-description, .collection-main-div .collection .contours .contours-descript .contours-description, .highlight-main-page .highlight-page .highlight1 .highlight1-descript .highlight1-description, .highlight-main-page .highlight-page .highlight2 .highlight2-descript .highlight2-description, .highlight-main-page .highlight-page .highlight3 .highlight3-descript .highlight3-description, .blushes-main-page .blushes-main .peach-blush .peach-blush-descript .peach-blush-description, .blushes-main-page .blushes-main .pink-blush .pink-blush-descript .pink-blush-description, .blushes-main-page .blushes-main .red-blush .red-blush-descript .red-blush-description, .primers-main-page .primers-main .eye-primer .eye-primer-descript .eye-primer-description, .primers-main-page .primers-main .face-primer .face-primer-descript .face-primer-description, .singles-main-page1 .singles-main-page1 .dark-green .dark-green-descript .dark-green-description, .singles-main-page1 .singles-main-page1 .yellow .yellow-descript .yellow-description, .singles-main-page1 .singles-main-page1 .pink .pink-descript .pink-description, .singles-main-page2 .singles-main2 .blue .blue-descript .blue-description, .singles-main-page2 .singles-main2 .burgundy .burgundy-descript .burgundy-description, .singles-main-page2 .singles-main2 .purple .purple-descript .purple-description, .singles-main-page3 .singles-main3 .pink-gold .pink-gold-descript .pink-gold-description, .singles-main-page3 .singles-main3 .skyblue .skyblue-descript .skyblue-description, .singles-main-page3 .singles-main3 .glittery-blue .glittery-blue-descript .glittery-blue-description, .glosses-main-page .glosses-main .light-grey .light-grey-descript .light-grey-description, .glosses-main-page .glosses-main .pink-grey .pink-grey-descript .pink-grey-description, .glosses-main-page .glosses-main .pink-gloss .pink-descript .pink-description, .lipsticks-main-page1 .lipsticks-main1 .bright-pink .bright-pink-descript .bright-pink-description, .lipsticks-main-page1 .lipsticks-main1 .brown-pink .brown-pink-descript .brown-pink-description, .lipsticks-main-page1 .lipsticks-main1 .burgundy .burgundy-descript .burgundy-description, .lipsticks-main-page2 .lipsticks-main2 .pink .pink-descript .pink-description, .lipsticks-main-page2 .lipsticks-main2 .warm-pink .warm-pink-descript .warm-pink-description, .lipsticks-main-page2 .lipsticks-main2 .collection .collection-descript .collection-description, .palletes-main-page .palletes-main .nude .nude-descript .nude-description, .palletes-main-page .palletes-main .grey .grey-descript .grey-description, .selling-products-main-div .selling-products-div .contour1descript .contour1-description, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .contour2-description, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .contour-bundle-description, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-description, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-description, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-description, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-description, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-description, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-description {
+      font-size: 21px; } }
+  @media (max-width: 380px) {
+    .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-descript2 .pink-gold-shadow-description2, .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-descript .burgundy-shadow-description, .best-seller-div .best-seller .peach-blush .peach-blush-descript .peach-blush-description, .collection-main-div .collection .eyeshadows .eyeshadows-descript .eyeshadows-description, .collection-main-div .collection .lipsticks .lipsticks-descript .lipsticks-description, .collection-main-div .collection .contours .contours-descript .contours-description, .highlight-main-page .highlight-page .highlight1 .highlight1-descript .highlight1-description, .highlight-main-page .highlight-page .highlight2 .highlight2-descript .highlight2-description, .highlight-main-page .highlight-page .highlight3 .highlight3-descript .highlight3-description, .blushes-main-page .blushes-main .peach-blush .peach-blush-descript .peach-blush-description, .blushes-main-page .blushes-main .pink-blush .pink-blush-descript .pink-blush-description, .blushes-main-page .blushes-main .red-blush .red-blush-descript .red-blush-description, .primers-main-page .primers-main .eye-primer .eye-primer-descript .eye-primer-description, .primers-main-page .primers-main .face-primer .face-primer-descript .face-primer-description, .singles-main-page1 .singles-main-page1 .dark-green .dark-green-descript .dark-green-description, .singles-main-page1 .singles-main-page1 .yellow .yellow-descript .yellow-description, .singles-main-page1 .singles-main-page1 .pink .pink-descript .pink-description, .singles-main-page2 .singles-main2 .blue .blue-descript .blue-description, .singles-main-page2 .singles-main2 .burgundy .burgundy-descript .burgundy-description, .singles-main-page2 .singles-main2 .purple .purple-descript .purple-description, .singles-main-page3 .singles-main3 .pink-gold .pink-gold-descript .pink-gold-description, .singles-main-page3 .singles-main3 .skyblue .skyblue-descript .skyblue-description, .singles-main-page3 .singles-main3 .glittery-blue .glittery-blue-descript .glittery-blue-description, .glosses-main-page .glosses-main .light-grey .light-grey-descript .light-grey-description, .glosses-main-page .glosses-main .pink-grey .pink-grey-descript .pink-grey-description, .glosses-main-page .glosses-main .pink-gloss .pink-descript .pink-description, .lipsticks-main-page1 .lipsticks-main1 .bright-pink .bright-pink-descript .bright-pink-description, .lipsticks-main-page1 .lipsticks-main1 .brown-pink .brown-pink-descript .brown-pink-description, .lipsticks-main-page1 .lipsticks-main1 .burgundy .burgundy-descript .burgundy-description, .lipsticks-main-page2 .lipsticks-main2 .pink .pink-descript .pink-description, .lipsticks-main-page2 .lipsticks-main2 .warm-pink .warm-pink-descript .warm-pink-description, .lipsticks-main-page2 .lipsticks-main2 .collection .collection-descript .collection-description, .palletes-main-page .palletes-main .nude .nude-descript .nude-description, .palletes-main-page .palletes-main .grey .grey-descript .grey-description, .selling-products-main-div .selling-products-div .contour1descript .contour1-description, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .contour2-description, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .contour-bundle-description, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-description, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-description, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-description, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-description, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-description, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-description {
+      font-size: 17px; } }
 
 .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-descript2 .pink-gold-shadow-product-name2, .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-descript .burgundy-shadow-product-name, .best-seller-div .best-seller .peach-blush .peach-blush-descript .peach-blush-product-name, .collection-main-div .collection .eyeshadows .eyeshadows-descript .eyeshadows-product-name, .collection-main-div .collection .lipsticks .lipsticks-descript .lipsticks-product-name, .collection-main-div .collection .contours .contours-descript .contours-product-name, .highlight-main-page .highlight-page .highlight1 .highlight1-descript .highlight1-product-name, .highlight-main-page .highlight-page .highlight2 .highlight2-descript .highlight2-product-name, .highlight-main-page .highlight-page .highlight3 .highlight3-descript .highlight3-product-name, .blushes-main-page .blushes-main .peach-blush .peach-blush-descript .peach-blush-product-name, .blushes-main-page .blushes-main .pink-blush .pink-blush-descript .pink-blush-product-name, .blushes-main-page .blushes-main .red-blush .red-blush-descript .red-blush-product-name, .primers-main-page .primers-main .eye-primer .eye-primer-descript .eye-primer-product-name, .primers-main-page .primers-main .face-primer .face-primer-descript .face-primer-product-name, .singles-main-page1 .singles-main-page1 .dark-green .dark-green-descript .dark-green-product-name, .singles-main-page1 .singles-main-page1 .yellow .yellow-descript .yellow-product-name, .singles-main-page1 .singles-main-page1 .pink .pink-descript .pink-product-name, .singles-main-page2 .singles-main2 .blue .blue-descript .blue-product-name, .singles-main-page2 .singles-main2 .burgundy .burgundy-descript .burgundy-product-name, .singles-main-page2 .singles-main2 .purple .purple-descript .purple-product-name, .singles-main-page3 .singles-main3 .pink-gold .pink-gold-descript .pink-gold-product-name, .singles-main-page3 .singles-main3 .skyblue .skyblue-descript .skyblue-product-name, .singles-main-page3 .singles-main3 .glittery-blue .glittery-blue-descript .glittery-blue-product-name, .glosses-main-page .glosses-main .light-grey .light-grey-descript .light-grey-product-name, .glosses-main-page .glosses-main .pink-grey .pink-grey-descript .pink-grey-product-name, .glosses-main-page .glosses-main .pink-gloss .pink-descript .pink-product-name, .lipsticks-main-page1 .lipsticks-main1 .bright-pink .bright-pink-descript .bright-pink-product-name, .lipsticks-main-page1 .lipsticks-main1 .brown-pink .brown-pink-descript .brown-pink-product-name, .lipsticks-main-page1 .lipsticks-main1 .burgundy .burgundy-descript .burgundy-product-name, .lipsticks-main-page2 .lipsticks-main2 .pink .pink-descript .pink-product-name, .lipsticks-main-page2 .lipsticks-main2 .warm-pink .warm-pink-descript .warm-pink-product-name, .lipsticks-main-page2 .lipsticks-main2 .collection .collection-descript .collection-product-name, .palletes-main-page .palletes-main .nude .nude-descript .nude-product-name, .palletes-main-page .palletes-main .grey .grey-descript .grey-product-name, .selling-products-main-div .selling-products-div .contour1descript .contour1-name, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .contour2-name, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .contour-bundle-name, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-name, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-name, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-name, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-name, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-name, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-name {
   display: -webkit-box;
@@ -76,20 +83,26 @@ a {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 10px; }
+  @media (max-width: 480px) {
+    .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-descript2 .pink-gold-shadow-product-name2, .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-descript .burgundy-shadow-product-name, .best-seller-div .best-seller .peach-blush .peach-blush-descript .peach-blush-product-name, .collection-main-div .collection .eyeshadows .eyeshadows-descript .eyeshadows-product-name, .collection-main-div .collection .lipsticks .lipsticks-descript .lipsticks-product-name, .collection-main-div .collection .contours .contours-descript .contours-product-name, .highlight-main-page .highlight-page .highlight1 .highlight1-descript .highlight1-product-name, .highlight-main-page .highlight-page .highlight2 .highlight2-descript .highlight2-product-name, .highlight-main-page .highlight-page .highlight3 .highlight3-descript .highlight3-product-name, .blushes-main-page .blushes-main .peach-blush .peach-blush-descript .peach-blush-product-name, .blushes-main-page .blushes-main .pink-blush .pink-blush-descript .pink-blush-product-name, .blushes-main-page .blushes-main .red-blush .red-blush-descript .red-blush-product-name, .primers-main-page .primers-main .eye-primer .eye-primer-descript .eye-primer-product-name, .primers-main-page .primers-main .face-primer .face-primer-descript .face-primer-product-name, .singles-main-page1 .singles-main-page1 .dark-green .dark-green-descript .dark-green-product-name, .singles-main-page1 .singles-main-page1 .yellow .yellow-descript .yellow-product-name, .singles-main-page1 .singles-main-page1 .pink .pink-descript .pink-product-name, .singles-main-page2 .singles-main2 .blue .blue-descript .blue-product-name, .singles-main-page2 .singles-main2 .burgundy .burgundy-descript .burgundy-product-name, .singles-main-page2 .singles-main2 .purple .purple-descript .purple-product-name, .singles-main-page3 .singles-main3 .pink-gold .pink-gold-descript .pink-gold-product-name, .singles-main-page3 .singles-main3 .skyblue .skyblue-descript .skyblue-product-name, .singles-main-page3 .singles-main3 .glittery-blue .glittery-blue-descript .glittery-blue-product-name, .glosses-main-page .glosses-main .light-grey .light-grey-descript .light-grey-product-name, .glosses-main-page .glosses-main .pink-grey .pink-grey-descript .pink-grey-product-name, .glosses-main-page .glosses-main .pink-gloss .pink-descript .pink-product-name, .lipsticks-main-page1 .lipsticks-main1 .bright-pink .bright-pink-descript .bright-pink-product-name, .lipsticks-main-page1 .lipsticks-main1 .brown-pink .brown-pink-descript .brown-pink-product-name, .lipsticks-main-page1 .lipsticks-main1 .burgundy .burgundy-descript .burgundy-product-name, .lipsticks-main-page2 .lipsticks-main2 .pink .pink-descript .pink-product-name, .lipsticks-main-page2 .lipsticks-main2 .warm-pink .warm-pink-descript .warm-pink-product-name, .lipsticks-main-page2 .lipsticks-main2 .collection .collection-descript .collection-product-name, .palletes-main-page .palletes-main .nude .nude-descript .nude-product-name, .palletes-main-page .palletes-main .grey .grey-descript .grey-product-name, .selling-products-main-div .selling-products-div .contour1descript .contour1-name, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .contour2-name, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .contour-bundle-name, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-name, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-name, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-name, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-name, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-name, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-name {
+      font-size: 15px; } }
 
 .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-descript2 .pink-gold-shadow-button2 .pink-gold-shadow-buy-now, .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-descript .burgundy-shadow-button .burgundy-shadow-buy-now, .best-seller-div .best-seller .peach-blush .peach-blush-descript .peach-blush-button .peach-blush-buy-now, .collection-main-div .collection .eyeshadows .eyeshadows-descript .eyeshadows-button .eyeshadows-buy-now, .collection-main-div .collection .lipsticks .lipsticks-descript .lipsticks-button .lipsticks-buy-now, .collection-main-div .collection .contours .contours-descript .contours-button .contours-buy-now, .highlight-main-page .highlight-page .highlight1 .highlight1-descript .highlight1-button .highlight1-buy-now, .highlight-main-page .highlight-page .highlight2 .highlight2-descript .highlight2-button .highlight2-buy-now, .highlight-main-page .highlight-page .highlight3 .highlight3-descript .highlight3-button .highlight3-buy-now, .blushes-main-page .blushes-main .peach-blush .peach-blush-descript .peach-blush-button .peach-blush-buy-now, .blushes-main-page .blushes-main .pink-blush .pink-blush-descript .pink-blush-button .pink-blush-buy-now, .blushes-main-page .blushes-main .red-blush .red-blush-descript .red-blush-button .red-blush-buy-now, .primers-main-page .primers-main .eye-primer .eye-primer-descript .eye-primer-button-div .eye-primer-buy-now, .primers-main-page .primers-main .face-primer .face-primer-descript .face-primer-button-div .face-primer-buy-now, .singles-main-page1 .singles-main-page1 .dark-green .dark-green-descript .dark-green-button-div .dark-green-buy-now, .singles-main-page1 .singles-main-page1 .yellow .yellow-descript .yellow-button-div .yellow-buy-now, .singles-main-page1 .singles-main-page1 .pink .pink-descript .pink-button-div .pink-buy-now, .singles-main-page2 .singles-main2 .blue .blue-descript .blue-button-div .blue-buy-now, .singles-main-page2 .singles-main2 .burgundy .burgundy-descript .burgundy-button-div .burgundy-buy-now, .singles-main-page2 .singles-main2 .purple .purple-descript .purple-button-div .purple-buy-now, .singles-main-page3 .singles-main3 .pink-gold .pink-gold-descript .pink-gold-button-div .pink-gold-buy-now, .singles-main-page3 .singles-main3 .skyblue .skyblue-descript .skyblue-button-div .skyblue-buy-now, .singles-main-page3 .singles-main3 .glittery-blue .glittery-blue-descript .glittery-blue-button-div .glittery-blue-buy-now, .glosses-main-page .glosses-main .light-grey .light-grey-descript .light-grey-button-div .light-grey-buy-now, .glosses-main-page .glosses-main .pink-grey .pink-grey-descript .pink-grey-button-div .pink-grey-buy-now, .glosses-main-page .glosses-main .pink-gloss .pink-descript .pink-button-div .pink-buy-now, .lipsticks-main-page1 .lipsticks-main1 .bright-pink .bright-pink-descript .bright-pink-button-div .bright-pink-buy-now, .lipsticks-main-page1 .lipsticks-main1 .brown-pink .brown-pink-descript .brown-pink-button-div .brown-pink-buy-now, .lipsticks-main-page1 .lipsticks-main1 .burgundy .burgundy-descript .burgundy-button-div .burgundy-buy-now, .lipsticks-main-page2 .lipsticks-main2 .pink .pink-descript .pink-button-div .pink-buy-now, .lipsticks-main-page2 .lipsticks-main2 .warm-pink .warm-pink-descript .warm-pink-button-div .warm-pink-buy-now, .lipsticks-main-page2 .lipsticks-main2 .collection .collection-descript .collection-button-div .collection-buy-now, .palletes-main-page .palletes-main .nude .nude-descript .nude-button-div .nude-buy-now, .palletes-main-page .palletes-main .grey .grey-button-div .grey-buy-now, .selling-products-main-div .selling-products-div .contour1descript .button-div .buy-now-button, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .button-div .buy-now-button, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .buy-now-button .contour-button, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-button-div .pink-gloss-button, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-button-div .vannila-button, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-button-div .cherry-cola-button, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-button-div .pink-shadow-button, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-button, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-button-div .pink-gold-button {
+  outline: none;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
   opacity: 0.6px;
   width: 170px;
   height: 40px;
-  font-size: 20px;
   background-color: #da838a;
   border: none;
   -webkit-border-radius: 8px;
   border-radius: 8px;
   margin-top: 10px; }
+  @media (max-width: 480px) {
+    .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-descript2 .pink-gold-shadow-button2 .pink-gold-shadow-buy-now, .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-descript .burgundy-shadow-button .burgundy-shadow-buy-now, .best-seller-div .best-seller .peach-blush .peach-blush-descript .peach-blush-button .peach-blush-buy-now, .collection-main-div .collection .eyeshadows .eyeshadows-descript .eyeshadows-button .eyeshadows-buy-now, .collection-main-div .collection .lipsticks .lipsticks-descript .lipsticks-button .lipsticks-buy-now, .collection-main-div .collection .contours .contours-descript .contours-button .contours-buy-now, .highlight-main-page .highlight-page .highlight1 .highlight1-descript .highlight1-button .highlight1-buy-now, .highlight-main-page .highlight-page .highlight2 .highlight2-descript .highlight2-button .highlight2-buy-now, .highlight-main-page .highlight-page .highlight3 .highlight3-descript .highlight3-button .highlight3-buy-now, .blushes-main-page .blushes-main .peach-blush .peach-blush-descript .peach-blush-button .peach-blush-buy-now, .blushes-main-page .blushes-main .pink-blush .pink-blush-descript .pink-blush-button .pink-blush-buy-now, .blushes-main-page .blushes-main .red-blush .red-blush-descript .red-blush-button .red-blush-buy-now, .primers-main-page .primers-main .eye-primer .eye-primer-descript .eye-primer-button-div .eye-primer-buy-now, .primers-main-page .primers-main .face-primer .face-primer-descript .face-primer-button-div .face-primer-buy-now, .singles-main-page1 .singles-main-page1 .dark-green .dark-green-descript .dark-green-button-div .dark-green-buy-now, .singles-main-page1 .singles-main-page1 .yellow .yellow-descript .yellow-button-div .yellow-buy-now, .singles-main-page1 .singles-main-page1 .pink .pink-descript .pink-button-div .pink-buy-now, .singles-main-page2 .singles-main2 .blue .blue-descript .blue-button-div .blue-buy-now, .singles-main-page2 .singles-main2 .burgundy .burgundy-descript .burgundy-button-div .burgundy-buy-now, .singles-main-page2 .singles-main2 .purple .purple-descript .purple-button-div .purple-buy-now, .singles-main-page3 .singles-main3 .pink-gold .pink-gold-descript .pink-gold-button-div .pink-gold-buy-now, .singles-main-page3 .singles-main3 .skyblue .skyblue-descript .skyblue-button-div .skyblue-buy-now, .singles-main-page3 .singles-main3 .glittery-blue .glittery-blue-descript .glittery-blue-button-div .glittery-blue-buy-now, .glosses-main-page .glosses-main .light-grey .light-grey-descript .light-grey-button-div .light-grey-buy-now, .glosses-main-page .glosses-main .pink-grey .pink-grey-descript .pink-grey-button-div .pink-grey-buy-now, .glosses-main-page .glosses-main .pink-gloss .pink-descript .pink-button-div .pink-buy-now, .lipsticks-main-page1 .lipsticks-main1 .bright-pink .bright-pink-descript .bright-pink-button-div .bright-pink-buy-now, .lipsticks-main-page1 .lipsticks-main1 .brown-pink .brown-pink-descript .brown-pink-button-div .brown-pink-buy-now, .lipsticks-main-page1 .lipsticks-main1 .burgundy .burgundy-descript .burgundy-button-div .burgundy-buy-now, .lipsticks-main-page2 .lipsticks-main2 .pink .pink-descript .pink-button-div .pink-buy-now, .lipsticks-main-page2 .lipsticks-main2 .warm-pink .warm-pink-descript .warm-pink-button-div .warm-pink-buy-now, .lipsticks-main-page2 .lipsticks-main2 .collection .collection-descript .collection-button-div .collection-buy-now, .palletes-main-page .palletes-main .nude .nude-descript .nude-button-div .nude-buy-now, .palletes-main-page .palletes-main .grey .grey-button-div .grey-buy-now, .selling-products-main-div .selling-products-div .contour1descript .button-div .buy-now-button, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .button-div .buy-now-button, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .buy-now-button .contour-button, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-button-div .pink-gloss-button, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-button-div .vannila-button, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-button-div .cherry-cola-button, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-button-div .pink-shadow-button, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-button, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-button-div .pink-gold-button {
+      width: 130px; } }
   .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-descript2 .pink-gold-shadow-button2 .pink-gold-shadow-buy-now:hover, .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-descript .burgundy-shadow-button .burgundy-shadow-buy-now:hover, .best-seller-div .best-seller .peach-blush .peach-blush-descript .peach-blush-button .peach-blush-buy-now:hover, .collection-main-div .collection .eyeshadows .eyeshadows-descript .eyeshadows-button .eyeshadows-buy-now:hover, .collection-main-div .collection .lipsticks .lipsticks-descript .lipsticks-button .lipsticks-buy-now:hover, .collection-main-div .collection .contours .contours-descript .contours-button .contours-buy-now:hover, .highlight-main-page .highlight-page .highlight1 .highlight1-descript .highlight1-button .highlight1-buy-now:hover, .highlight-main-page .highlight-page .highlight2 .highlight2-descript .highlight2-button .highlight2-buy-now:hover, .highlight-main-page .highlight-page .highlight3 .highlight3-descript .highlight3-button .highlight3-buy-now:hover, .blushes-main-page .blushes-main .peach-blush .peach-blush-descript .peach-blush-button .peach-blush-buy-now:hover, .blushes-main-page .blushes-main .pink-blush .pink-blush-descript .pink-blush-button .pink-blush-buy-now:hover, .blushes-main-page .blushes-main .red-blush .red-blush-descript .red-blush-button .red-blush-buy-now:hover, .primers-main-page .primers-main .eye-primer .eye-primer-descript .eye-primer-button-div .eye-primer-buy-now:hover, .primers-main-page .primers-main .face-primer .face-primer-descript .face-primer-button-div .face-primer-buy-now:hover, .singles-main-page1 .singles-main-page1 .dark-green .dark-green-descript .dark-green-button-div .dark-green-buy-now:hover, .singles-main-page1 .singles-main-page1 .yellow .yellow-descript .yellow-button-div .yellow-buy-now:hover, .singles-main-page1 .singles-main-page1 .pink .pink-descript .pink-button-div .pink-buy-now:hover, .singles-main-page2 .singles-main2 .blue .blue-descript .blue-button-div .blue-buy-now:hover, .singles-main-page2 .singles-main2 .burgundy .burgundy-descript .burgundy-button-div .burgundy-buy-now:hover, .singles-main-page2 .singles-main2 .purple .purple-descript .purple-button-div .purple-buy-now:hover, .singles-main-page3 .singles-main3 .pink-gold .pink-gold-descript .pink-gold-button-div .pink-gold-buy-now:hover, .singles-main-page3 .singles-main3 .skyblue .skyblue-descript .skyblue-button-div .skyblue-buy-now:hover, .singles-main-page3 .singles-main3 .glittery-blue .glittery-blue-descript .glittery-blue-button-div .glittery-blue-buy-now:hover, .glosses-main-page .glosses-main .light-grey .light-grey-descript .light-grey-button-div .light-grey-buy-now:hover, .glosses-main-page .glosses-main .pink-grey .pink-grey-descript .pink-grey-button-div .pink-grey-buy-now:hover, .glosses-main-page .glosses-main .pink-gloss .pink-descript .pink-button-div .pink-buy-now:hover, .lipsticks-main-page1 .lipsticks-main1 .bright-pink .bright-pink-descript .bright-pink-button-div .bright-pink-buy-now:hover, .lipsticks-main-page1 .lipsticks-main1 .brown-pink .brown-pink-descript .brown-pink-button-div .brown-pink-buy-now:hover, .lipsticks-main-page1 .lipsticks-main1 .burgundy .burgundy-descript .burgundy-button-div .burgundy-buy-now:hover, .lipsticks-main-page2 .lipsticks-main2 .pink .pink-descript .pink-button-div .pink-buy-now:hover, .lipsticks-main-page2 .lipsticks-main2 .warm-pink .warm-pink-descript .warm-pink-button-div .warm-pink-buy-now:hover, .lipsticks-main-page2 .lipsticks-main2 .collection .collection-descript .collection-button-div .collection-buy-now:hover, .palletes-main-page .palletes-main .nude .nude-descript .nude-button-div .nude-buy-now:hover, .palletes-main-page .palletes-main .grey .grey-button-div .grey-buy-now:hover, .selling-products-main-div .selling-products-div .contour1descript .button-div .buy-now-button:hover, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .button-div .buy-now-button:hover, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .buy-now-button .contour-button:hover, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-button-div .pink-gloss-button:hover, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-button-div .vannila-button:hover, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-button-div .cherry-cola-button:hover, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-button-div .pink-shadow-button:hover, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-button:hover, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-button-div .pink-gold-button:hover {
     -webkit-box-shadow: 0px 10px 30px 0 rgba(109, 101, 101, 0.6);
     box-shadow: 0px 10px 30px 0 rgba(109, 101, 101, 0.6);
@@ -98,6 +111,7 @@ a {
     height: 45px; }
 
 .highlight-main-page .highlight-page .highlight1 .highlight1-descript .highlight1-button .highlight1-buy-now .highlight1-button-a, .highlight-main-page .highlight-page .highlight2 .highlight2-descript .highlight2-button .highlight2-buy-now .highlight2-button-a, .highlight-main-page .highlight-page .highlight3 .highlight3-descript .highlight3-button .highlight3-buy-now .highlight3-button-a, .blushes-main-page .blushes-main .peach-blush .peach-blush-descript .peach-blush-button .peach-blush-buy-now .peach-blush-button-a, .blushes-main-page .blushes-main .pink-blush .pink-blush-descript .pink-blush-button .pink-blush-buy-now .pink-blush-button-a, .blushes-main-page .blushes-main .red-blush .red-blush-descript .red-blush-button .red-blush-buy-now .red-blush-button-a, .primers-main-page .primers-main .eye-primer .eye-primer-descript .eye-primer-button-div .eye-primer-buy-now .eye-primer-button-a, .primers-main-page .primers-main .face-primer .face-primer-descript .face-primer-button-div .face-primer-buy-now .face-primer-button-a, .singles-main-page1 .singles-main-page1 .dark-green .dark-green-descript .dark-green-button-div .dark-green-buy-now .dark-green-button-a, .singles-main-page1 .singles-main-page1 .yellow .yellow-descript .yellow-button-div .yellow-buy-now .yellow-button-a, .singles-main-page1 .singles-main-page1 .pink .pink-descript .pink-button-div .pink-buy-now .pink-button-a, .singles-main-page2 .singles-main2 .blue .blue-descript .blue-button-div .blue-buy-now .blue-button-a, .singles-main-page2 .singles-main2 .burgundy .burgundy-descript .burgundy-button-div .burgundy-buy-now .burgundy-button-a, .singles-main-page2 .singles-main2 .purple .purple-descript .purple-button-div .purple-buy-now .purple-button-a, .singles-main-page3 .singles-main3 .pink-gold .pink-gold-descript .pink-gold-button-div .pink-gold-buy-now .pink-gold-button-a, .singles-main-page3 .singles-main3 .skyblue .skyblue-descript .skyblue-button-div .skyblue-buy-now .skyblue-button-a, .singles-main-page3 .singles-main3 .glittery-blue .glittery-blue-descript .glittery-blue-button-div .glittery-blue-buy-now .glittery-blue-button-a, .glosses-main-page .glosses-main .light-grey .light-grey-descript .light-grey-button-div .light-grey-buy-now .light-grey-button-a, .glosses-main-page .glosses-main .pink-grey .pink-grey-descript .pink-grey-button-div .pink-grey-buy-now .pink-grey-button-a, .glosses-main-page .glosses-main .pink-gloss .pink-descript .pink-button-div .pink-buy-now .pink-button-a, .lipsticks-main-page1 .lipsticks-main1 .bright-pink .bright-pink-descript .bright-pink-button-div .bright-pink-buy-now .bright-pink-button-a, .lipsticks-main-page1 .lipsticks-main1 .brown-pink .brown-pink-descript .brown-pink-button-div .brown-pink-buy-now .brown-pink-button-a, .lipsticks-main-page1 .lipsticks-main1 .burgundy .burgundy-descript .burgundy-button-div .burgundy-buy-now .burgundy-button-a, .lipsticks-main-page2 .lipsticks-main2 .pink .pink-descript .pink-button-div .pink-buy-now .pink-button-a, .lipsticks-main-page2 .lipsticks-main2 .warm-pink .warm-pink-descript .warm-pink-button-div .warm-pink-buy-now .warm-pink-button-a, .lipsticks-main-page2 .lipsticks-main2 .collection .collection-descript .collection-button-div .collection-buy-now .collection-button-a, .palletes-main-page .palletes-main .nude .nude-descript .nude-button-div .nude-buy-now .nude-button-a, .palletes-main-page .palletes-main .grey .grey-button-div .grey-buy-now .grey-button-a, .selling-products-main-div .selling-products-div .contour1descript .button-div .buy-now-button .button-a1, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .button-div .buy-now-button .button-a2, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .buy-now-button .contour-button .button-a3, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-button-div .pink-gloss-button .pink-lipgloss-button-a, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-button-div .vannila-button .vannilaa-button-a, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-button-div .cherry-cola-button .cherry-cola-button-a, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-button-div .pink-shadow-button .pink-shadow-button-a, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-button .glittery-skyblue-shadow-button-a, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-button-div .pink-gold-button .pink-gold-button-a {
+  font-size: 20px;
   text-decoration: none;
   color: black; }
 
@@ -112,6 +126,9 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  @media (max-width: 480px) {
+    .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-descript2 .pink-gold-shadow-price2, .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-descript .burgundy-shadow-price, .best-seller-div .best-seller .peach-blush .peach-blush-descript .peach-blush-price, .collection-main-div .collection .eyeshadows .eyeshadows-descript .eyeshadows-price, .collection-main-div .collection .lipsticks .lipsticks-descript .lipsticks-price, .collection-main-div .collection .contours .contours-descript .contours-price, .highlight-main-page .highlight-page .highlight1 .highlight1-descript .highlight1-price, .highlight-main-page .highlight-page .highlight2 .highlight2-descript .highlight2-price, .highlight-main-page .highlight-page .highlight3 .highlight3-descript .highlight3-price, .blushes-main-page .blushes-main .peach-blush .peach-blush-descript .peach-blush-price, .blushes-main-page .blushes-main .pink-blush .pink-blush-descript .pink-blush-price, .blushes-main-page .blushes-main .red-blush .red-blush-descript .red-blush-price, .primers-main-page .primers-main .eye-primer .eye-primer-descript .eye-primer-price, .primers-main-page .primers-main .face-primer .face-primer-descript .face-primer-price, .singles-main-page1 .singles-main-page1 .dark-green .dark-green-descript .dark-green-price, .singles-main-page1 .singles-main-page1 .yellow .yellow-descript .yellow-price, .singles-main-page1 .singles-main-page1 .pink .pink-descript .pink-price, .singles-main-page2 .singles-main2 .blue .blue-descript .blue-price, .singles-main-page2 .singles-main2 .burgundy .burgundy-descript .burgundy-price, .singles-main-page2 .singles-main2 .purple .purple-descript .purple-price, .singles-main-page3 .singles-main3 .pink-gold .pink-gold-descript .pink-gold-price, .singles-main-page3 .singles-main3 .skyblue .skyblue-descript .skyblue-price, .singles-main-page3 .singles-main3 .glittery-blue .glittery-blue-descript .glittery-blue-price, .glosses-main-page .glosses-main .light-grey .light-grey-descript .light-grey-price, .glosses-main-page .glosses-main .pink-grey .pink-grey-descript .pink-grey-price, .glosses-main-page .glosses-main .pink-gloss .pink-descript .pink-price, .lipsticks-main-page1 .lipsticks-main1 .bright-pink .bright-pink-descript .bright-pink-price, .lipsticks-main-page1 .lipsticks-main1 .brown-pink .brown-pink-descript .brown-pink-price, .lipsticks-main-page1 .lipsticks-main1 .burgundy .burgundy-descript .burgundy-price, .lipsticks-main-page2 .lipsticks-main2 .pink .pink-descript .pink-price, .lipsticks-main-page2 .lipsticks-main2 .warm-pink .warm-pink-descript .warm-pink-price, .lipsticks-main-page2 .lipsticks-main2 .collection .collection-descript .collection-price, .palletes-main-page .palletes-main .nude .nude-descript .nude-price, .palletes-main-page .palletes-main .grey .grey-descript .grey-price, .selling-products-main-div .selling-products-div .contour1descript .product-price, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .product-price, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .product-price, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-price, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-price, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-price, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-price, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-price, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-price {
+      font-size: 15px; } }
 
 .best-seller-div .best-seller .pink-gold-shadow2 .pink-gold-shadow-descript2 .pink-gold-shadow-button2, .best-seller-div .best-seller .burgundy-shadow .burgundy-shadow-descript .burgundy-shadow-button, .best-seller-div .best-seller .peach-blush .peach-blush-descript .peach-blush-button, .collection-main-div .collection .eyeshadows .eyeshadows-descript .eyeshadows-button, .collection-main-div .collection .lipsticks .lipsticks-descript .lipsticks-button, .collection-main-div .collection .contours .contours-descript .contours-button, .highlight-main-page .highlight-page .highlight1 .highlight1-descript .highlight1-button, .highlight-main-page .highlight-page .highlight2 .highlight2-descript .highlight2-button, .highlight-main-page .highlight-page .highlight3 .highlight3-descript .highlight3-button, .blushes-main-page .blushes-main .peach-blush .peach-blush-descript .peach-blush-button, .blushes-main-page .blushes-main .pink-blush .pink-blush-descript .pink-blush-button, .blushes-main-page .blushes-main .red-blush .red-blush-descript .red-blush-button, .primers-main-page .primers-main .eye-primer .eye-primer-descript .eye-primer-button-div, .primers-main-page .primers-main .face-primer .face-primer-descript .face-primer-button-div, .singles-main-page1 .singles-main-page1 .dark-green .dark-green-descript .dark-green-button-div, .singles-main-page1 .singles-main-page1 .yellow .yellow-descript .yellow-button-div, .singles-main-page1 .singles-main-page1 .pink .pink-descript .pink-button-div, .singles-main-page2 .singles-main2 .blue .blue-descript .blue-button-div, .singles-main-page2 .singles-main2 .burgundy .burgundy-descript .burgundy-button-div, .singles-main-page2 .singles-main2 .purple .purple-descript .purple-button-div, .singles-main-page3 .singles-main3 .pink-gold .pink-gold-descript .pink-gold-button-div, .singles-main-page3 .singles-main3 .skyblue .skyblue-descript .skyblue-button-div, .singles-main-page3 .singles-main3 .glittery-blue .glittery-blue-descript .glittery-blue-button-div, .glosses-main-page .glosses-main .light-grey .light-grey-descript .light-grey-button-div, .glosses-main-page .glosses-main .pink-grey .pink-grey-descript .pink-grey-button-div, .glosses-main-page .glosses-main .pink-gloss .pink-descript .pink-button-div, .lipsticks-main-page1 .lipsticks-main1 .bright-pink .bright-pink-descript .bright-pink-button-div, .lipsticks-main-page1 .lipsticks-main1 .brown-pink .brown-pink-descript .brown-pink-button-div, .lipsticks-main-page1 .lipsticks-main1 .burgundy .burgundy-descript .burgundy-button-div, .lipsticks-main-page2 .lipsticks-main2 .pink .pink-descript .pink-button-div, .lipsticks-main-page2 .lipsticks-main2 .warm-pink .warm-pink-descript .warm-pink-button-div, .lipsticks-main-page2 .lipsticks-main2 .collection .collection-descript .collection-button-div, .palletes-main-page .palletes-main .nude .nude-descript .nude-button-div, .palletes-main-page .palletes-main .grey .grey-button-div, .selling-products-main-div .selling-products-div .contour1descript .button-div, .selling-products-main-div .selling-products-div .contour2 .contour2-descript .button-div, .selling-products-main-div .selling-products-div .contour-bundle .contour-bundle-descript .buy-now-button, .selling-products-main-div2 .selling-products-div2 .pink-gloss .pink-gloss-descript .pink-gloss-button-div, .selling-products-main-div2 .selling-products-div2 .vannila .vannila-descript .vannila-button-div, .selling-products-main-div2 .selling-products-div2 .cherry-cola .cherry-cola-descript .cherry-cola-button-div, .selling-products-main-div3 .back-in-stock-div, .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript .pink-shadow-button-div, .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript .glittery-skyblue-shadow-button-div, .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript .pink-gold-button-div {
   display: -webkit-box;
@@ -125,6 +142,14 @@ a {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center; }
+
+.footer .footer-div .footer-ul .home, .footer .footer-div .footer-ul .about, .footer .footer-div .footer-ul .terms, .footer .footer-div .footer-ul .cards, .footer .footer-div .footer-ul .policy, .footer .footer-div .footer-ul .contact {
+  padding: 10px;
+  padding-left: 20px;
+  border: 1px solid #25202069;
+  color: #fff;
+  font-size: 17px;
+  font-family: "Open Sans Condensed", sans-serif; }
 
 .best-seller-div {
   margin-top: 50px; }
@@ -521,7 +546,7 @@ a {
 
 .singles-main-page3 {
   padding: 5px;
-  margin-bottom: 110px;
+  margin-bottom: 50px;
   margin-top: 50px; }
   @media (max-width: 750px) {
     .singles-main-page3 .singles-main3 {
@@ -556,6 +581,128 @@ a {
       width: 70%; } }
   .singles-main-page3 .singles-main3 .glittery-blue .glittery-blue-img {
     max-width: 100%; }
+
+.singles-models-main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#f1f0f0));
+  background-image: -webkit-linear-gradient(#f7f7f7, #f1f0f0);
+  background-image: -o-linear-gradient(#f7f7f7, #f1f0f0);
+  background-image: linear-gradient(#f7f7f7, #f1f0f0);
+  width: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-bottom: 80px;
+  padding-bottom: 30px; }
+  .singles-models-main .title-div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 30px; }
+    .singles-models-main .title-div .title {
+      font-weight: 550;
+      font-size: 1.583rem; }
+      .singles-models-main .title-div .title:hover {
+        color: #9494b39e;
+        cursor: pointer; }
+      @media (max-width: 540px) {
+        .singles-models-main .title-div .title {
+          font-size: 21px; } }
+  .singles-models-main .singles-models {
+    margin: 0 auto;
+    width: 1170px;
+    max-width: 100%; }
+    @media (max-width: 800px) {
+      .singles-models-main .singles-models {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+    .singles-models-main .singles-models .model1 {
+      width: 20.2%;
+      margin-left: 3%; }
+      @media (max-width: 800px) {
+        .singles-models-main .singles-models .model1 {
+          width: 31.5%;
+          margin-left: 16%;
+          margin-bottom: 1%; } }
+      @media (max-width: 540px) {
+        .singles-models-main .singles-models .model1 {
+          width: 33.5%;
+          margin-left: 13%;
+          margin-bottom: 1%; } }
+      @media (max-width: 480px) {
+        .singles-models-main .singles-models .model1 {
+          width: 50%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; } }
+    .singles-models-main .singles-models .model2 {
+      width: 21.4%;
+      margin-left: 3%; }
+      @media (max-width: 800px) {
+        .singles-models-main .singles-models .model2 {
+          width: 33.3%;
+          margin-left: 3.5%;
+          margin-bottom: 1%; } }
+      @media (max-width: 540px) {
+        .singles-models-main .singles-models .model2 {
+          width: 35.3%;
+          margin-left: 3.5%;
+          margin-bottom: 1%; } }
+      @media (max-width: 480px) {
+        .singles-models-main .singles-models .model2 {
+          width: 50%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 25px; } }
+    .singles-models-main .singles-models .model3 {
+      width: 20%;
+      margin-left: 3%; }
+      @media (max-width: 800px) {
+        .singles-models-main .singles-models .model3 {
+          width: 33%;
+          margin-left: 15%; } }
+      @media (max-width: 540px) {
+        .singles-models-main .singles-models .model3 {
+          width: 35%;
+          margin-left: 12.3%; } }
+      @media (max-width: 480px) {
+        .singles-models-main .singles-models .model3 {
+          width: 50%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 25px; } }
+    .singles-models-main .singles-models .model4 {
+      width: 20%;
+      margin-left: 3%; }
+      @media (max-width: 800px) {
+        .singles-models-main .singles-models .model4 {
+          width: 33.3%;
+          margin-left: 3%; } }
+      @media (max-width: 540px) {
+        .singles-models-main .singles-models .model4 {
+          width: 35.3%;
+          margin-left: 3%; } }
+      @media (max-width: 480px) {
+        .singles-models-main .singles-models .model4 {
+          width: 50%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 25px; } }
 
 .glosses-main-page {
   margin-top: 70px;
@@ -794,7 +941,7 @@ a {
             .header .header-div .header-ul-div .header-ul .collections-header-li-a {
               display: none; } }
           .header .header-div .header-ul-div .header-ul .collections-header-li-a:hover {
-            color: #da838a;
+            color: #9494b39e;
             cursor: pointer; }
         .header .header-div .header-ul-div .header-ul .best-sellers-header-li-a {
           color: #ad8574;
@@ -803,10 +950,10 @@ a {
             .header .header-div .header-ul-div .header-ul .best-sellers-header-li-a {
               display: none; } }
           .header .header-div .header-ul-div .header-ul .best-sellers-header-li-a:hover {
-            color: #da838a;
+            color: #9494b39e;
             cursor: pointer; }
         .header .header-div .header-ul-div .header-ul .header-li:hover {
-          color: #da838a;
+          color: #9494b39e;
           cursor: pointer; }
         .header .header-div .header-ul-div .header-ul .style-a {
           color: #ad8574;
@@ -815,13 +962,13 @@ a {
           .header .header-div .header-ul-div .header-ul .collections-header-li {
             display: none; } }
         .header .header-div .header-ul-div .header-ul .collections-header-li:hover {
-          color: #da838a;
+          color: #b1b1c99e;
           cursor: pointer; }
       @media (max-width: 830px) {
         .header .header-div .header-ul-div .best-sellers-header-li {
           display: none; } }
       .header .header-div .header-ul-div .best-sellers-header-li:hover {
-        color: #da838a;
+        color: #c9c9d89e;
         cursor: pointer; }
       .header .header-div .header-ul-div .header-li-none {
         display: none; }
@@ -900,6 +1047,9 @@ a {
     @media (max-width: 840px) {
       .main-image-div .main-image1 {
         width: 85%; } }
+    @media (max-width: 650px) {
+      .main-image-div .main-image1 {
+        width: 100%; } }
   .main-image-div .main-image2 {
     width: 49%; }
     @media (max-width: 943px) {
@@ -913,6 +1063,9 @@ a {
     @media (max-width: 840px) {
       .main-image-div .main-image2 {
         width: 85%; } }
+    @media (max-width: 650px) {
+      .main-image-div .main-image2 {
+        width: 100%; } }
   .main-image-div .main-title {
     position: absolute;
     color: #fff;
@@ -1099,7 +1252,11 @@ a {
       margin-top: 20px; } }
   .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-img {
     max-width: 74%;
-    margin-left: 50px; }
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
   .selling-products-main-div3 .selling-products-div2 .pink-shadow .pink-shadow-descript {
     margin-top: 15px; }
   @media (max-width: 815px) {
@@ -1112,7 +1269,11 @@ a {
       margin-bottom: 30px; } }
   .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-img {
     max-width: 74%;
-    margin-left: 50px; }
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
   .selling-products-main-div3 .selling-products-div2 .glittery-skyblue-shadow .glittery-skyblue-shadow-descript {
     margin-top: 15px; }
   @media (max-width: 815px) {
@@ -1127,7 +1288,11 @@ a {
       margin-bottom: 30px; } }
   .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-img {
     max-width: 74%;
-    margin-left: 50px; }
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
   .selling-products-main-div3 .selling-products-div2 .pink-gold .pink-gold-descript {
     margin-top: 15px; }
 
@@ -1149,9 +1314,47 @@ a {
       -ms-flex-pack: center;
       justify-content: center;
       color: #4c3a3a; }
-      @media (max-width: 580px) {
+      @media (max-width: 610px) {
         .footer .section-form .footer-section-title {
-          font-size: 52px; } }
+          font-size: 58px; } }
+      @media (max-width: 500px) {
+        .footer .section-form .footer-section-title {
+          display: none; } }
+    .footer .section-form .footer-section-title-max-500px1 {
+      font-size: 60px;
+      font-weight: 900;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #4c3a3a;
+      display: none; }
+      @media (max-width: 500px) {
+        .footer .section-form .footer-section-title-max-500px1 {
+          display: block;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; } }
+    .footer .section-form .footer-section-title-max-500px2 {
+      font-size: 60px;
+      font-weight: 900;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #4c3a3a;
+      display: none; }
+      @media (max-width: 500px) {
+        .footer .section-form .footer-section-title-max-500px2 {
+          display: block;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 5px; } }
     .footer .section-form .footer-section-text {
       font-size: 14px;
       font-weight: 500;
@@ -1167,27 +1370,26 @@ a {
       @media (max-width: 565px) {
         .footer .section-form .footer-section-text {
           margin: 16px 0 30px; } }
-    .footer .section-form .form-div .input-emailaddress {
-      -webkit-box-shadow: 0px 12px 51px 0 rgba(30, 30, 30, 0.05);
-      box-shadow: 0px 12px 51px 0 rgba(30, 30, 30, 0.05);
-      border: none;
-      padding: 15px 10px 20px;
-      border-bottom: 2px solid rgba(30, 30, 30, 0.2);
-      font-size: 24px;
-      margin-bottom: 20px;
-      text-indent: 17px;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      margin: 0 auto;
-      width: 45%; }
-      @media (max-width: 655px) {
-        .footer .section-form .form-div .input-emailaddress {
-          width: 50%; } }
-      @media (max-width: 595px) {
-        .footer .section-form .form-div .input-emailaddress {
-          width: 60%; } }
+    .footer .section-form .form-div .form {
+      width: 550px;
+      max-width: 100%;
+      margin: 0 auto; }
+      .footer .section-form .form-div .form .input-emailaddress {
+        outline: none;
+        -webkit-box-shadow: 0px 12px 51px 0 rgba(30, 30, 30, 0.05);
+        box-shadow: 0px 12px 51px 0 rgba(30, 30, 30, 0.05);
+        border: none;
+        padding: 15px 10px 20px;
+        border-bottom: 2px solid rgba(30, 30, 30, 0.2);
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-indent: 17px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0 auto;
+        width: 100%; }
     .footer .section-form .form-div .button-sign-up-div {
       display: -webkit-box;
       display: -webkit-flex;
@@ -1217,7 +1419,8 @@ a {
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        width: 18%;
+        width: 130px;
+        max-width: 100%;
         padding: 20px 0 16px;
         -webkit-transition: all 0.15s;
         -o-transition: all 0.15s;
@@ -1232,8 +1435,53 @@ a {
         .footer .section-form .form-div .button-sign-up-div .button-sign-up:hover {
           -webkit-box-shadow: 0px 10px 30px 0 rgba(109, 101, 101, 0.6);
           box-shadow: 0px 10px 30px 0 rgba(109, 101, 101, 0.6);
-          cursor: pointer; }
+          cursor: pointer;
+          background-color: #fff;
+          border: 2px solid #4c3a3a; }
+        .footer .section-form .form-div .button-sign-up-div .button-sign-up:hover .sign-in {
+          color: #4c3a3a; }
+  .footer .footer-small-div {
+    font-family: "Open Sans Condensed", sans-serif;
+    padding: 10px 20px;
+    border-top: 1px solid #dedede; }
+    .footer .footer-small-div .navigation {
+      font-size: 20px;
+      color: black; }
+      .footer .footer-small-div .navigation:hover {
+        color: #9494b39e;
+        cursor: pointer; }
   .footer .footer-div {
+    background-color: #4c3a3a; }
+    .footer .footer-div .footer-ul .home .home-a {
+      color: #fff;
+      text-decoration: none; }
+    .footer .footer-div .footer-ul .about .about-a {
+      color: #fff;
+      text-decoration: none; }
+    .footer .footer-div .footer-ul .terms .terms-a {
+      color: #fff;
+      text-decoration: none; }
+    .footer .footer-div .footer-ul .cards .cards-a {
+      color: #fff;
+      text-decoration: none; }
+    .footer .footer-div .footer-ul .policy .policy-a {
+      color: #fff;
+      text-decoration: none; }
+    .footer .footer-div .footer-ul .contact .contact-a {
+      color: #fff;
+      text-decoration: none; }
+
+.models-main-div {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#9c9cb3e0), color-stop(#c9c9d89e), to(#ede4e0));
+  background-image: -webkit-linear-gradient(top left, #9c9cb3e0, #c9c9d89e, #ede4e0);
+  background-image: -o-linear-gradient(top left, #9c9cb3e0, #c9c9d89e, #ede4e0);
+  background-image: linear-gradient(to bottom right, #9c9cb3e0, #c9c9d89e, #ede4e0);
+  font-family: "Open Sans Condensed", sans-serif;
+  width: 100%;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 80px; }
+  .models-main-div .hastag-div {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1242,46 +1490,120 @@ a {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #4c3a3a;
-    padding: 3px 0; }
-    .footer .footer-div .footer-logo {
-      width: 100px;
-      max-width: 100%;
-      margin-left: 30px;
-      margin: 0 50px; }
-      @media (max-width: 800px) {
-        .footer .footer-div .footer-logo {
-          width: 12%;
-          height: 66px; } }
-      @media (max-width: 750px) {
-        .footer .footer-div .footer-logo {
-          margin: 0 42px 0 0; } }
-      @media (max-width: 680px) {
-        .footer .footer-div .footer-logo {
-          width: 14%; } }
-      @media (max-width: 530px) {
-        .footer .footer-div .footer-logo {
-          margin: 0 28px 0 0; } }
-    .footer .footer-div .footer-li-div {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      width: 55%;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-      justify-content: space-between;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
-      color: #fff;
-      font-size: 16px;
-      font-family: "Open Sans Condensed", sans-serif; }
-      @media (max-width: 750px) {
-        .footer .footer-div .footer-li-div {
-          width: 73%; } }
+    padding-top: 50px;
+    margin-bottom: 10px; }
+    .models-main-div .hastag-div .hashtag {
+      font-size: 1.583rem; }
+  .models-main-div .hashtag-div2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .models-main-div .hashtag-div2 .small-text {
+      font-size: 12px;
+      margin-bottom: 20px; }
+  .models-main-div .models-main {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto; }
+    @media (max-width: 815px) {
+      .models-main-div .models-main {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+    .models-main-div .models-main .model1 {
+      width: 23.7%;
+      margin-left: 3%; }
+      @media (max-width: 815px) {
+        .models-main-div .models-main .model1 {
+          width: 47.5%;
+          margin-left: 6%; } }
+      @media (max-width: 480px) {
+        .models-main-div .models-main .model1 {
+          width: 60%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; } }
+    .models-main-div .models-main .model2 {
+      width: 19%;
+      margin-left: 3%; }
+      @media (max-width: 815px) {
+        .models-main-div .models-main .model2 {
+          width: 38%;
+          margin-left: 3%;
+          margin-top: 5px;
+          margin-top: 15px; } }
+      @media (max-width: 480px) {
+        .models-main-div .models-main .model2 {
+          width: 60%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 15px; } }
+    .models-main-div .models-main .model3 {
+      width: 19%;
+      margin-left: 3%; }
+      @media (max-width: 815px) {
+        .models-main-div .models-main .model3 {
+          width: 42%;
+          margin-left: 6%;
+          margin-top: 30px; } }
+      @media (max-width: 480px) {
+        .models-main-div .models-main .model3 {
+          width: 60%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 15px; } }
+    .models-main-div .models-main .model4 {
+      width: 19%;
+      margin-left: 3%; }
+      @media (max-width: 815px) {
+        .models-main-div .models-main .model4 {
+          width: 42%;
+          margin-left: 3%; } }
+      @media (max-width: 480px) {
+        .models-main-div .models-main .model4 {
+          width: 60%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 15px; } }
+    .models-main-div .models-main .view-more {
+      margin-left: 3%;
+      font-size: 12px;
+      letter-spacing: 3px;
+      margin-top: 5px; }
+      @media (max-width: 850px) {
+        .models-main-div .models-main .view-more {
+          margin-left: 6%; } }
+      @media (max-width: 480px) {
+        .models-main-div .models-main .view-more {
+          margin-left: 0;
+          margin-top: 10px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+          -ms-flex-pack: center;
+          justify-content: center; } }
+      .models-main-div .models-main .view-more .view-more-a {
+        text-decoration: none;
+        color: #000; }
 
 .best-seller-div {
   margin-top: 50px; }
