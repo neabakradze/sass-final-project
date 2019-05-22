@@ -282,6 +282,9 @@ a {
 .liner-main-div {
   margin-top: 62px; }
   .liner-main-div .liner-div {
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -289,24 +292,164 @@ a {
     max-width: 1170px;
     margin: 0 auto; }
     .liner-main-div .liner-div .liner-img-div .liner-img1 {
-      width: 65%; }
-    .liner-main-div .liner-div .liner-img-div .liner-img2 {
-      width: 30%; }
-    .liner-main-div .liner-div .liner-descript .liner-product-name {
-      font-size: 48px; }
-    .liner-main-div .liner-div .liner-descript .liner-button .liner-buy-now {
-      color: #fff;
-      background-color: #c39885;
-      line-height: normal;
-      max-width: 100%;
-      height: auto;
-      line-height: 1;
-      -webkit-border-radius: 2px;
-      border-radius: 2px;
-      padding: 0 .2em;
-      border: 0;
-      cursor: pointer;
-      padding: 11px 40.7px; }
+      width: 88%;
+      border: solid 2px; }
+    .liner-main-div .liner-div .liner-descript {
+      font-family: "Open Sans Condensed", sans-serif;
+      /* -- quantity box -- */ }
+      .liner-main-div .liner-div .liner-descript .product-name-div {
+        margin-top: 20%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .liner-main-div .liner-div .liner-descript .product-name-div .liner-product-name {
+          font-weight: 600;
+          font-size: 48px;
+          color: #ad8574; }
+      .liner-main-div .liner-div .liner-descript .price-div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .liner-main-div .liner-div .liner-descript .price-div .liner-price {
+          margin-top: 5%;
+          font-weight: 600;
+          color: #ad8574; }
+      .liner-main-div .liner-div .liner-descript .color-div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .liner-main-div .liner-div .liner-descript .color-div .liner-color {
+          margin-top: 10%;
+          font-weight: 600;
+          color: #ad8574; }
+      .liner-main-div .liner-div .liner-descript .p-div {
+        max-width: 97%;
+        margin-top: 2%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .liner-main-div .liner-div .liner-descript .p-div .liner-description {
+          margin-top: 1%;
+          font-weight: 600;
+          line-height: 1.4;
+          color: #ad8574; }
+      .liner-main-div .liner-div .liner-descript .net-div {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .liner-main-div .liner-div .liner-descript .net-div .liner-net {
+          margin-top: 2.5%;
+          font-weight: 600;
+          color: #ad8574; }
+      .liner-main-div .liner-div .liner-descript .quantity-box {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 2%;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3%; }
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity-title {
+          margin-right: 3%; }
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity {
+          display: inline-block; }
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity .input-text.qty {
+          width: 35px;
+          height: 39px;
+          padding: 0 5px;
+          text-align: center;
+          background-color: transparent;
+          border: 1px solid #efefef; }
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity.buttons_added {
+          text-align: left;
+          position: relative;
+          white-space: nowrap;
+          vertical-align: top; }
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity.buttons_added input {
+          display: inline-block;
+          margin: 0;
+          vertical-align: top;
+          -webkit-box-shadow: none;
+          box-shadow: none; }
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity.buttons_added .minus,
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity.buttons_added .plus {
+          padding: 7px 10px 8px;
+          height: 41px;
+          background-color: #ffffff;
+          border: 1px solid #efefef;
+          cursor: pointer; }
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity.buttons_added .minus {
+          border-right: 0; }
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity.buttons_added .plus {
+          border-left: 0; }
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity.buttons_added .minus:hover,
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity.buttons_added .plus:hover {
+          background: #eeeeee; }
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity input::-webkit-outer-spin-button,
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          margin: 0; }
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity.buttons_added .minus:focus,
+        .liner-main-div .liner-div .liner-descript .quantity-box .quantity.buttons_added .plus:focus {
+          outline: none; }
+      .liner-main-div .liner-div .liner-descript .liner-button {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .liner-main-div .liner-div .liner-descript .liner-button .liner-buy-now {
+          margin-top: 2%;
+          color: #fff;
+          background-color: #c39885;
+          line-height: normal;
+          max-width: 100%;
+          height: auto;
+          line-height: 1;
+          -webkit-border-radius: 2px;
+          border-radius: 2px;
+          padding: 0 .2em;
+          border: 0;
+          cursor: pointer;
+          padding: 11px 40.7px; }
 
 .div-for-header {
   margin-bottom: 50px; }

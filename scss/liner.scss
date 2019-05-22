@@ -2,26 +2,152 @@
     @extend %selling-products-main-div;
     margin-top: 62px;
     .liner-div{
+        padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
         display: flex;
         max-width: 1170px;
         margin: 0 auto;
         //liner images
         .liner-img-div{
             .liner-img1{
-                width: 65%;
+                width: 88%;
+                border: solid 2px;
             }
-            .liner-img2{
-                width: 30%;
-            }
+        
         }
         //liner description
         .liner-descript{
-.liner-product-name{
+font-family: $open-sans-font;
+.product-name-div{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+  .liner-product-name{
+    font-weight: 600;
     font-size: 48px;
+    color: $color-light-nude;
+  }
 }
 
+.price-div{
+    display: flex;
+    justify-content: center;
+  .liner-price{
+    margin-top: 5%;
+    font-weight: 600;
+    color: $color-light-nude;
+  }
+}
+
+.color-div{
+    display: flex;
+    justify-content: center;
+  .liner-color{
+    margin-top: 10%;
+    font-weight: 600;
+    color: $color-light-nude;
+  }
+}
+
+.p-div{
+    max-width: 97%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+.liner-description{
+    margin-top: 1%;
+    font-weight: 600;
+    line-height: 1.4;
+    color: $color-light-nude;
+}
+}
+
+.net-div{
+    display: flex;
+    justify-content: center;
+  .liner-net{
+    margin-top: 2.5%;
+    font-weight: 600;
+    color: $color-light-nude;
+  }
+}
+
+/* -- quantity box -- */
+.quantity-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    .quantity-title{
+        margin-right: 3%;
+    }
+    .quantity {
+        display: inline-block; }
+       
+       .quantity .input-text.qty {
+        width: 35px;
+        height: 39px;
+        padding: 0 5px;
+        text-align: center;
+        background-color: transparent;
+        border: 1px solid #efefef;
+       }
+       
+       .quantity.buttons_added {
+        text-align: left;
+        position: relative;
+        white-space: nowrap;
+        vertical-align: top; }
+       
+       .quantity.buttons_added input {
+        display: inline-block;
+        margin: 0;
+        vertical-align: top;
+        box-shadow: none;
+       }
+       
+       .quantity.buttons_added .minus,
+       .quantity.buttons_added .plus {
+        padding: 7px 10px 8px;
+        height: 41px;
+        background-color: #ffffff;
+        border: 1px solid #efefef;
+        cursor:pointer;}
+       
+       .quantity.buttons_added .minus {
+        border-right: 0; }
+       
+       .quantity.buttons_added .plus {
+        border-left: 0; }
+       
+       .quantity.buttons_added .minus:hover,
+       .quantity.buttons_added .plus:hover {
+        background: #eeeeee; }
+       
+       .quantity input::-webkit-outer-spin-button,
+       .quantity input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        margin: 0; }
+        
+        .quantity.buttons_added .minus:focus,
+       .quantity.buttons_added .plus:focus {
+        outline: none; }
+       
+    
+}
+
+
+
 .liner-button{
+    display: flex;
+    justify-content: center;
     .liner-buy-now{
+        margin-top: 2%;
         color: #fff;
         background-color: #c39885;
         line-height: normal;
