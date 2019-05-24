@@ -20,3 +20,28 @@ String.prototype.getDecimals || (String.prototype.getDecimals = function() {
         e = a.attr("step");
     b && "" !== b && "NaN" !== b || (b = 0), "" !== c && "NaN" !== c || (c = ""), "" !== d && "NaN" !== d || (d = 0), "any" !== e && "" !== e && void 0 !== e && "NaN" !== parseFloat(e) || (e = 1), jQuery(this).is(".plus") ? c && b >= c ? a.val(c) : a.val((b + parseFloat(e)).toFixed(e.getDecimals())) : d && b <= d ? a.val(d) : b > 0 && a.val((b - parseFloat(e)).toFixed(e.getDecimals())), a.trigger("change")
 });
+//other 
+$(function(){
+    $("#big-image img:eq(0)").nextAll().hide();
+    $(".small-images img").click(function(e){
+        var index = $(this).index();
+        $("#big-image img").eq(index).show().siblings().hide();
+    });
+});
+
+
+
+
+
+
+
+
+
+$(function(){
+    $(".small-images a").click(function(e){
+        var href = $(this).attr("href");
+        $("#big-image img").attr("src", href);
+        e.preventDefault();
+        return false;
+    });
+})

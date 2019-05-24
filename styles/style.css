@@ -291,9 +291,22 @@ a {
     display: flex;
     max-width: 1170px;
     margin: 0 auto; }
-    .liner-main-div .liner-div .liner-img-div .liner-img1 {
-      width: 88%;
-      border: solid 2px; }
+    .liner-main-div .liner-div .liner-img-div {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .liner-main-div .liner-div .liner-img-div .liner-img1 {
+        width: 88%;
+        border: solid 2px; }
     .liner-main-div .liner-div .liner-descript {
       font-family: "Open Sans Condensed", sans-serif;
       /* -- quantity box -- */ }
@@ -437,6 +450,7 @@ a {
         -ms-flex-pack: center;
         justify-content: center; }
         .liner-main-div .liner-div .liner-descript .liner-button .liner-buy-now {
+          outline: none;
           margin-top: 2%;
           color: #fff;
           background-color: #c39885;

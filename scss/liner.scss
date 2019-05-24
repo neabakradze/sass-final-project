@@ -10,6 +10,9 @@
         margin: 0 auto;
         //liner images
         .liner-img-div{
+          align-items: center;
+          justify-content: center;
+          display: flex;
             .liner-img1{
                 width: 88%;
                 border: solid 2px;
@@ -26,7 +29,7 @@ font-family: $open-sans-font;
   .liner-product-name{
     font-weight: 600;
     font-size: 48px;
-    color: $color-light-nude;
+    color: #ad8574;
   }
 }
 
@@ -147,6 +150,7 @@ font-family: $open-sans-font;
     display: flex;
     justify-content: center;
     .liner-buy-now{
+      outline: none;
         margin-top: 2%;
         color: #fff;
         background-color: #c39885;
