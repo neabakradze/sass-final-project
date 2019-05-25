@@ -1,6 +1,7 @@
 .liner-main-div{
     @extend %selling-products-main-div;
     margin-top: 62px;
+    margin-bottom: 80px;
     .liner-div{
         padding: 20px;
     padding-top: 0;
@@ -8,14 +9,49 @@
         display: flex;
         max-width: 1170px;
         margin: 0 auto;
+        @media (max-width:900px) {
+          display: inline-block;
+        }
         //liner images
-        .liner-img-div{
-          align-items: center;
-          justify-content: center;
+        .responsive-product-name-div{
           display: flex;
+          justify-content: center;
+          .responsive-product-name{
+            display: none;
+            font-weight: 600;
+            font-size: 48px;
+            color: #ad8574;
+            font-family: $open-sans-font;
+            @media (max-width:900px ){
+              display: block;
+            }
+            @media (max-width:580px) {
+              font-size: 40px;
+            }
+            @media (max-width:330px) {
+              font-size: 35px;
+            }
+          }
+        }
+        .liner-img-div{
             .liner-img1{
+              display: flex;
+              margin: 0 auto;
                 width: 88%;
                 border: solid 2px;
+                @media (max-width:900px) {
+                  width: 55%;
+                  margin-top: 20px;
+                }
+                @media (max-width:650px) {
+                  width: 75%;
+                }
+                @media (max-width:410px) {
+                  width: 90%;
+                }
+                @media (max-width:360px) {
+                  width: 100%;
+                }
             }
         
         }
@@ -26,10 +62,16 @@ font-family: $open-sans-font;
     margin-top: 20%;
     display: flex;
     justify-content: center;
+    @media (max-width:900px) {
+      margin-top: 20px;  
+    }
   .liner-product-name{
     font-weight: 600;
     font-size: 48px;
     color: #ad8574;
+    @media (max-width:900px) {
+    display: none;
+    }
   }
 }
 
@@ -50,6 +92,10 @@ font-family: $open-sans-font;
     margin-top: 10%;
     font-weight: 600;
     color: $color-light-nude;
+    @media (max-width:900px) {
+             
+    margin-top: 35px;     
+    }
   }
 }
 
@@ -58,11 +104,26 @@ font-family: $open-sans-font;
     margin-top: 2%;
     display: flex;
     justify-content: center;
+    @media (max-width:900px) {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;;
+      margin-bottom: 20px;      
+    }
 .liner-description{
     margin-top: 1%;
     font-weight: 600;
     line-height: 1.4;
     color: $color-light-nude;
+    @media (max-width:900px) {
+      width: 60%;
+    }
+    @media (max-width:650px) {
+      width: 90%;
+    }
+    @media (max-width:410px) {
+      width: 100%;
+    }
 }
 }
 
@@ -73,6 +134,9 @@ font-family: $open-sans-font;
     margin-top: 2.5%;
     font-weight: 600;
     color: $color-light-nude;
+    @media (max-width:900px) {
+      margin-top: 0;    
+    }
   }
 }
 

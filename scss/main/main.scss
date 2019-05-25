@@ -14,6 +14,9 @@
 @import './glosses.scss';
 @import './cream.scss';
 @import './palletes.scss';
+@import './box.scss';
+@import './palleteind.scss';
+@import './highlighterind.scss';
 //header1
 
 .header{
@@ -708,6 +711,9 @@
       margin: 0 auto;
     display: flex;
     }
+    @media (max-width:340px) {
+      font-size: 50px;
+    }
   }
   .footer-section-title-max-500px2{
     font-size: 60px;
@@ -720,6 +726,9 @@
       margin: 0 auto;
       display: flex;
       margin-top: 5px;
+    }
+    @media (max-width:340px) {
+      font-size: 50px;
     }
   }
   .footer-section-text{
