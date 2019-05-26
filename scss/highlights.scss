@@ -103,6 +103,14 @@ width: 100%;
    
     .highlight3-img{
 width: 100%;
+@media (max-width:950px) {
+    width: 90%;
+    display: flex;
+    margin:  0 auto;
+}
+@media (max-width:636px) {
+    width: 100%;
+}
     }
     .highlight3-descript{
         margin-top: 10px;
