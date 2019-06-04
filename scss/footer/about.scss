@@ -1,0 +1,39 @@
+.img-div{
+    .img-kylie{
+        width: 100%;
+        margin-top: 80px;
+    }
+}
+
+
+.main-text{
+        max-width: 660px;
+        margin: 0 auto;
+        margin-top: 40px;
+        font-family: "Open Sans Condensed", sans-serif;
+        color: #ad8574;
+        font-weight: bold;
+        margin-bottom: 100px;
+@media (max-width:690px) {
+   max-width: 460px; 
+}
+@media (max-width:490px) {
+    max-width: 350px;
+}
+@media (max-width:371px) {
+    max-width: 265px;
+}
+
+
+
+
+
+.text-div1{
+    margin-bottom: 10px;
+   
+}
+
+
+
+
+}

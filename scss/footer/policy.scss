@@ -1,0 +1,40 @@
+.main-text-div{
+    max-width: 660px;
+    margin: 0 auto;
+    margin-top: 100px;
+font-family: $open-sans-font;
+color: $color-light-nude;
+font-weight: bold;
+@media (max-width:690px) {
+   max-width: 460px; 
+}
+@media (max-width:490px) {
+    max-width: 350px;
+}
+@media (max-width:371px) {
+    max-width: 265px;
+}
+.policy-title-div{
+    display: flex;
+    justify-content: center;
+margin-bottom: 20px;
+font-size: 30px;
+}
+
+
+
+.text-div{
+   margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+}

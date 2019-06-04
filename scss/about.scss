@@ -39,6 +39,9 @@
                         @extend %display-flex;
                         .pink-gold-shadow-buy-now{
                             @extend %buy-now-button;
+                            .button-a1{
+                                @extend %button-a;
+                              }
                         }
                     }
                 }
@@ -75,6 +78,9 @@
                 @extend %display-flex;
                 .burgundy-shadow-buy-now{
                     @extend %buy-now-button;
+                    .button-a1{
+                        @extend %button-a;
+                      }
                 }
             }
         }
@@ -113,6 +119,9 @@
         @extend %display-flex;
         .peach-blush-buy-now{
             @extend %buy-now-button;
+            .button-a1{
+                @extend %button-a;
+              }
         }
      }
  }

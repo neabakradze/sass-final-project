@@ -1,0 +1,309 @@
+.ind-main-div{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    font-family: $open-sans-font;
+    .ind-main{
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        padding: 0 15px;
+        @media (max-width:900px) {
+            display: inline-block;
+        }
+
+
+.responsive-div1{
+    display: flex;
+    justify-content: center;
+    .responsive1{
+        display: none;
+        font-weight: 600;
+        font-size: 42px;
+        color: #ad8574;
+        @media (max-width:900px) {
+          display: inline;
+          margin-top: 20px;
+          margin-bottom: 15px;
+        }
+        @media (max-width:540px) {
+          font-size: 38px;
+        }
+        @media (max-width:440px) {
+          font-size: 34px;
+        }
+        @media (max-width:400px) {
+          font-size:25px;
+        }
+    }
+}
+.responsive-div2{
+    display: flex;
+    justify-content: center;
+    .responsive2{
+        display: none;
+        font-weight: 600;
+        font-size: 42px;
+        color: #ad8574;
+        @media (max-width:900px) {
+          display: inline;
+          margin-bottom: 15px;
+        }
+        @media (max-width:540px) {
+          font-size: 38px;
+        }
+        @media (max-width:440px) {
+          font-size: 34px;
+        }
+        @media (max-width:400px) {
+          font-size:25px;
+        }
+    }
+}
+
+.ind-img{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    @media (max-width:850px) {
+        width: 60%;
+    }
+    @media (max-width:750px) {
+        width: 70%;
+    }
+    @media (max-width:650px) {
+        width: 80%;
+    }
+    @media (max-width:550px) {
+        width: 90%;
+    }
+    @media (max-width:450px) {
+        width: 100%;
+    }
+    .big-image2{
+      width: 100%;
+    .main-image{
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+    }
+    }
+    .small-images{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2%;
+       .box-img1{
+        width: 45%;
+       }
+       .box-img2{
+        width: 50%;
+       }
+     
+    }
+}
+
+.ind-description{
+ width: 50%;
+ margin: 0 auto;
+ margin-top: 1%;
+ @media (max-width:850px) {
+    width: 65%;
+}
+@media (max-width:750px) {
+    width: 75%;
+}
+@media (max-width:650px) {
+    width: 85%;
+}
+@media (max-width:500px) {
+    width: 95%;
+}
+@media (max-width:400px) {
+    width: 100%;
+}
+.ind-product-name-div{
+    margin-top: 15%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    @media (max-width:900px) {
+        margin-top: 0; 
+     }
+    .ind-product-name{
+        font-weight: 600;
+        font-size: 48px;
+        color: #ad8574;
+        @media (max-width:900px) {
+            display: none;
+          }
+        @media (max-width:950px) {
+         font-size: 45px;
+        }
+    }
+}
+.ind-product-name-div2{
+   
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    @media (max-width:900px) {
+        margin-top: 0; 
+     }
+    .ind-product-name2{
+        font-weight: 600;
+        font-size: 48px;
+        color: #ad8574;
+        @media (max-width:900px) {
+            display: none;
+          }
+        @media (max-width:950px) {
+         font-size: 45px;
+        }
+    }
+}
+.ind-price-div{
+    display: flex;
+    justify-content: center;
+    .ind-price{
+        font-weight: 600;
+        color: $color-light-nude;
+    }
+}
+.ind-button{
+    display: flex;
+    justify-content: center;
+    .ind-buy-now{
+        outline: none;
+        margin-top: 2%;
+        color: #fff;
+        background-color: #c39885;
+        line-height: normal;
+        max-width: 100%;
+        height: auto;
+        line-height: 1;
+        border-radius: 2px;
+        padding: 0 .2em;
+        border: 0;
+        cursor: pointer;
+        padding: 11px 40.7px;
+    }
+}
+.ind-text-div{
+    max-width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+    .ind-text{
+        margin-top: 1%;
+        font-weight: 600;
+        line-height: 1.4;
+        color: $color-light-nude;
+        @media (max-width:450px) {
+            font-size: 15px;
+            margin-top: 5%;
+          }
+    }
+}
+.ind-net-div{
+    display: flex;
+    justify-content: center;
+    .ind-net{
+        margin-top: 2.5%;
+        font-weight: 600;
+        line-height: 1.4;
+        color: $color-light-nude;
+        @media (max-width:450px) {
+            font-size: 15px;
+            margin-top: 3%;
+          }
+    }
+}
+
+
+ /* -- quantity box -- */
+ .quantity-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    .quantity-title{
+        margin-right: 3%;
+    }
+    .quantity {
+        display: inline-block; }
+       
+       .quantity .input-text.qty {
+        width: 35px;
+        height: 39px;
+        padding: 0 5px;
+        text-align: center;
+        background-color: transparent;
+        border: 1px solid #efefef;
+       }
+       
+       .quantity.buttons_added {
+        text-align: left;
+        position: relative;
+        white-space: nowrap;
+        vertical-align: top; }
+       
+       .quantity.buttons_added input {
+        display: inline-block;
+        margin: 0;
+        vertical-align: top;
+        box-shadow: none;
+       }
+       
+       .quantity.buttons_added .minus,
+       .quantity.buttons_added .plus {
+        padding: 7px 10px 8px;
+        height: 41px;
+        background-color: #ffffff;
+        border: 1px solid #efefef;
+        cursor:pointer;}
+       
+       .quantity.buttons_added .minus {
+        border-right: 0; }
+       
+       .quantity.buttons_added .plus {
+        border-left: 0; }
+       
+       .quantity.buttons_added .minus:hover,
+       .quantity.buttons_added .plus:hover {
+        background: #eeeeee; }
+       
+       .quantity input::-webkit-outer-spin-button,
+       .quantity input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        margin: 0; }
+        
+        .quantity.buttons_added .minus:focus,
+       .quantity.buttons_added .plus:focus {
+        outline: none; }
+       
+    
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}

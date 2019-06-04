@@ -1,0 +1,88 @@
+.contact-img-div{
+    .contact-img{
+   width: 100%;
+   margin-top: 80px;
+
+    }
+}
+
+
+
+.text-main-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0 20px;
+    @media (max-width:730px) {
+      display: inline-block;
+      padding: 0;
+    }
+    .app-info-div{
+      @media (max-width:730px) {
+       margin-bottom: 20px;
+      }
+       .app-info{
+        font-weight: bold;
+        font-family: "Open Sans Condensed", sans-serif;
+        color: #ad8574;
+        max-width: 600px;
+        font-size: 25px;
+        margin-right: 20px;
+        line-height: 35px;
+        @media (max-width:730px) {
+          width: 90%;
+          margin: 0 auto;
+      }
+        }
+       }
+    }
+
+.contact-text-div{
+    font-family: "Open Sans Condensed", sans-serif;
+    max-width: 700px;
+    @media (max-width:730px) {
+      width: 90%;
+      margin: 0 auto;
+  }
+    .text-1{
+        font-weight: bold;
+        color: #ad8574;
+        margin-bottom: 10px;
+    }
+    .text-2{
+        font-weight: bold;
+        color: #ad8574;
+        margin-bottom: 10px;
+    }
+}
+
+
+.address{
+  .owner-name{
+    font-size: 17px;
+    font-weight: bold;
+    color: $dark-brown
+  }
+  .address-number{
+    color: $dark-brown;
+  }
+  .address-place{
+color: $dark-brown;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

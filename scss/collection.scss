@@ -41,6 +41,9 @@
             @extend %display-flex;
             .eyeshadows-buy-now{
                 @extend %buy-now-button;
+                .button-a1{
+                    @extend %button-a;
+                  }
             }
         }
     }
@@ -82,6 +85,9 @@
             @extend %display-flex;
             .lipsticks-buy-now{
                 @extend %buy-now-button;
+                .button-a1{
+                    @extend %button-a;
+                  }
             }
         }
     }
@@ -120,6 +126,9 @@
             @extend %display-flex;
             .contours-buy-now{
                 @extend %buy-now-button;
+                .button-a1{
+                    @extend %button-a;
+                  }
             }
         }
     }
