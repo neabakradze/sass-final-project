@@ -7723,6 +7723,9 @@ a {
     @media (max-width: 560px) {
       .main-image-div .main-title {
         font-size: 40px; } }
+    .main-image-div .main-title .main-title-a {
+      color: #fff;
+      text-decoration: none; }
 
 @media (max-width: 815px) {
   .selling-products-main-div .selling-products-div {
@@ -8237,6 +8240,117 @@ a {
       .models-main-div .models-main .view-more .view-more-a {
         text-decoration: none;
         color: #000; }
+
+.makeup-section {
+  width: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-bottom: 100px; }
+  .makeup-section .makeup-section-main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .makeup-section .makeup-section-main .eye-section {
+      width: 50%; }
+      @media (max-width: 500px) {
+        .makeup-section .makeup-section-main .eye-section {
+          width: 100%;
+          margin: 0 auto; } }
+      .makeup-section .makeup-section-main .eye-section .eyes-image {
+        width: 70%;
+        margin-left: 28%; }
+        @media (max-width: 800px) {
+          .makeup-section .makeup-section-main .eye-section .eyes-image {
+            width: 87%;
+            margin-left: 10%; } }
+        @media (max-width: 500px) {
+          .makeup-section .makeup-section-main .eye-section .eyes-image {
+            margin: 0 auto;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex; } }
+      .makeup-section .makeup-section-main .eye-section .eyes {
+        margin-left: 28%;
+        color: black;
+        font-size: 20px; }
+        @media (max-width: 800px) {
+          .makeup-section .makeup-section-main .eye-section .eyes {
+            margin-left: 10%; } }
+        @media (max-width: 500px) {
+          .makeup-section .makeup-section-main .eye-section .eyes {
+            margin-left: 6%; } }
+      .makeup-section .makeup-section-main .eye-section .eyes-image01 {
+        text-decoration: none; }
+    .makeup-section .makeup-section-main .lip-section {
+      width: 50%; }
+      @media (max-width: 500px) {
+        .makeup-section .makeup-section-main .lip-section {
+          width: 100%; } }
+      .makeup-section .makeup-section-main .lip-section .lips-image {
+        width: 70%;
+        margin-left: 2%; }
+        @media (max-width: 800px) {
+          .makeup-section .makeup-section-main .lip-section .lips-image {
+            width: 87%;
+            margin-left: 2%; } }
+        @media (max-width: 500px) {
+          .makeup-section .makeup-section-main .lip-section .lips-image {
+            margin: 0 auto;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex; } }
+      .makeup-section .makeup-section-main .lip-section .lips {
+        margin-left: 2%;
+        color: black;
+        font-size: 20px; }
+        @media (max-width: 500px) {
+          .makeup-section .makeup-section-main .lip-section .lips {
+            margin-left: 6%; } }
+      .makeup-section .makeup-section-main .lip-section .lips-image1 {
+        text-decoration: none; }
+    .makeup-section .makeup-section-main .face-section {
+      width: 90%; }
+      @media (max-width: 500px) {
+        .makeup-section .makeup-section-main .face-section {
+          width: 100%; } }
+      .makeup-section .makeup-section-main .face-section .face-image {
+        width: 80%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0 auto; }
+        @media (max-width: 800px) {
+          .makeup-section .makeup-section-main .face-section .face-image {
+            width: 100%; } }
+        @media (max-width: 500px) {
+          .makeup-section .makeup-section-main .face-section .face-image {
+            width: 87%;
+            margin: 0 auto;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex; } }
+      .makeup-section .makeup-section-main .face-section .face {
+        margin-left: 10%;
+        color: black;
+        font-size: 20px; }
+        @media (max-width: 800px) {
+          .makeup-section .makeup-section-main .face-section .face {
+            margin-left: 0; } }
+        @media (max-width: 500px) {
+          .makeup-section .makeup-section-main .face-section .face {
+            margin-left: 6%; } }
+      .makeup-section .makeup-section-main .face-section .face-image01 {
+        text-decoration: none; }
 
 .best-seller-div {
   margin-top: 50px; }

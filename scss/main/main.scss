@@ -265,6 +265,10 @@
     @media (max-width:560px)  {
       font-size:40px ;
     }
+  .main-title-a{
+    color: #fff;
+    text-decoration: none;
+  }
   }
    }
 
@@ -1024,7 +1028,123 @@
 
 
 
+.makeup-section{
+  width: 100%;
+  font-family: $open-sans-font;
+  margin-bottom: 100px;
+  .makeup-section-main{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
 
+
+.eye-section{
+  width: 50%;
+  @media (max-width:500px) {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .eyes-image{
+    width: 70%;
+    margin-left: 28%;
+    @media (max-width:800px) {
+      width: 87%;
+      margin-left: 10%;
+    }
+    @media (max-width:500px) {
+      margin: 0 auto;
+      display: flex;
+    }
+  }
+  .eyes{
+    margin-left: 28%;
+    color: black;
+    font-size: 20px;
+    @media (max-width:800px) {
+      margin-left: 10%;
+    }
+    @media (max-width:500px) {
+      margin-left: 6%;
+    }
+  }
+.eyes-image01{
+text-decoration: none;
+}
+}
+
+
+.lip-section{
+  width: 50%;
+  @media (max-width:500px) {
+    width: 100%;
+  }
+  .lips-image{
+    width: 70%;
+    margin-left: 2%;
+    @media (max-width:800px) {
+      width: 87%;
+      margin-left: 2%;
+    }
+    @media (max-width:500px) {
+      margin: 0 auto;
+      display: flex;
+    }
+  }
+  .lips{
+    margin-left: 2%;
+    color: black;
+    font-size: 20px;
+    @media (max-width:800px) {
+      
+    }
+    @media (max-width:500px) {
+      margin-left: 6%;
+    }
+  }
+  .lips-image1{
+text-decoration: none;
+  }
+}
+
+.face-section{
+  width: 90%;
+  @media (max-width:500px) {
+      width: 100%;
+  }
+  .face-image{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    @media (max-width:800px) {
+      width: 100%;
+    }
+    @media (max-width:500px) {
+      width: 87%;
+      margin: 0 auto;
+      display: flex;
+    }
+  }
+  .face{
+    margin-left: 10%;
+    color: black;
+    font-size: 20px;
+    @media (max-width:800px) {
+      margin-left: 0;
+    }
+    @media (max-width:500px) {
+      margin-left: 6%;
+    }
+  }
+  .face-image01{
+    text-decoration: none;
+  }
+}
+
+
+
+
+  }
+}
 
 
 
