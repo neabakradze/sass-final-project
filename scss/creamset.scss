@@ -337,19 +337,98 @@
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
+}
+
+.lip-collection-worn-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    @media (max-width:400px) {
+        justify-content: center;
+    }
+.image1{
+width: 12%;
+@media (max-width:1000px) {
+    width: 15%;
+}
+@media (max-width:930px) {
+    width: 26%;
+    margin-bottom: 10px;
+}
+@media (max-width:400px) {
+    width: 35%;
+    margin-right: 36px;
+}
+}
+.image2{
+    width: 12%; 
+    @media (max-width:1000px) {
+        width: 15%;
+    }
+    @media (max-width:930px) {
+        width: 25%;
+        margin-bottom: 10px;
+    }
+    @media (max-width:400px) {
+        width: 35%;
+    }
+}
+.image3{
+    width: 12%;
+    @media (max-width:1000px) {
+        width: 15%;
+    }
+    @media (max-width:930px) {
+        width: 25%;
+        margin-bottom: 10px;
+    }
+    @media (max-width:400px) {
+        width: 35%;
+        margin-right: 36px;
+    }
+}
+.image4{
+    width: 12%;
+    @media (max-width:1000px) {
+        width: 15%;
+    }
+    @media (max-width:930px) {
+        width: 26%;
+        margin-bottom: 10px;
+    }
+    @media (max-width:400px) {
+        width: 35%;
+    }
+}
+.image5{
+    width: 12%; 
+    @media (max-width:1000px) {
+        width: 15%;
+    }
+    @media (max-width:930px) {
+        width: 25%;
+        margin-bottom: 10px;
+    }
+    @media (max-width:400px) {
+        width: 35%;
+        margin-right: 36px;
+    }
+}
+.image6{
+    width: 12%; 
+    @media (max-width:1000px) {
+        width: 15%;
+    }
+    @media (max-width:930px) {
+        width: 25%;
+        margin-bottom: 10px;
+    }
+    @media (max-width:400px) {
+        width: 35%;
+    }
+}
 }
