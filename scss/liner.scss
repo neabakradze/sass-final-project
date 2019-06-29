@@ -237,6 +237,18 @@ font-family: $open-sans-font;
   max-width: 1065px;
   margin: 0 auto;
   margin-bottom: 80px;
-
+  height: 500px;
+@media (max-width:1172px) {
+  padding: 0 3%;
+}
+@media (max-width:850px) {
+  padding: 0 5%;
+}
+@media (max-width:600px) {
+  height: 400px;
+}
+@media (max-width:400px) {
+  height: 300px;
+}
 
 }

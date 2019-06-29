@@ -332,6 +332,9 @@
       .guide-title{
          font-family: $open-sans-font;
          font-size: 25px;
+         @media (max-width:400px) {
+           font-size: 20px;
+        }
       }
     }
     .contour-guide{
@@ -358,6 +361,11 @@
         width: 34%; 
         margin-right: 35px;
     }
+    @media (max-width:400px) {
+        width: 67%;
+    margin: 0 auto;
+    display: flex;
+    }
     }
     .guide-image2{
         width: 15%;
@@ -366,6 +374,11 @@
         }
         @media (max-width:580px) {
             width: 34%; 
+        }
+        @media (max-width:400px) {
+            width: 67%;
+        margin: 0 auto;
+        display: flex;
         }
     }
     .guide-image3{
@@ -377,6 +390,11 @@
             width: 34%;
             margin-right: 35px;
         }
+        @media (max-width:400px) {
+            width: 67%;
+        margin: 0 auto;
+        display: flex;
+        }
     }
     .guide-image4{
         width: 15%;
@@ -385,6 +403,11 @@
         }
         @media (max-width:580px) {
             width: 34%;
+        }
+        @media (max-width:400px) {
+            width: 67%;
+        margin: 0 auto;
+        display: flex;
         }
     }
     .guide-image5{
@@ -396,6 +419,11 @@
             width: 34%;
             margin-right: 35px;
         }
+        @media (max-width:400px) {
+            width: 67%;
+        margin: 0 auto;
+        display: flex;
+        }
     }
     .guide-image6{
         width: 15%;
@@ -404,6 +432,11 @@
         }
         @media (max-width:580px) {
             width: 34%; 
+        }
+        @media (max-width:400px) {
+            width: 67%;
+        margin: 0 auto;
+        display: flex;
         }
     }
 }

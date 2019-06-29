@@ -1045,8 +1045,8 @@ flex-wrap: wrap;
     margin: 0 auto;
   }
   .eyes-image{
-    width: 70%;
-    margin-left: 28%;
+    width: 60%;
+    margin-left: 37%;
     @media (max-width:800px) {
       width: 87%;
       margin-left: 10%;
@@ -1057,7 +1057,7 @@ flex-wrap: wrap;
     }
   }
   .eyes{
-    margin-left: 28%;
+    margin-left: 37%;
     color: black;
     font-size: 20px;
     @media (max-width:800px) {
@@ -1066,6 +1066,7 @@ flex-wrap: wrap;
     @media (max-width:500px) {
       margin-left: 6%;
     }
+  
   }
 .eyes-image01{
 text-decoration: none;
@@ -1079,7 +1080,7 @@ text-decoration: none;
     width: 100%;
   }
   .lips-image{
-    width: 70%;
+    width: 60%;
     margin-left: 2%;
     @media (max-width:800px) {
       width: 87%;
@@ -1089,6 +1090,7 @@ text-decoration: none;
       margin: 0 auto;
       display: flex;
     }
+   
   }
   .lips{
     margin-left: 2%;
@@ -1100,6 +1102,7 @@ text-decoration: none;
     @media (max-width:500px) {
       margin-left: 6%;
     }
+   
   }
   .lips-image1{
 text-decoration: none;
@@ -1112,7 +1115,7 @@ text-decoration: none;
       width: 100%;
   }
   .face-image{
-    width: 80%;
+    width: 70%;
     display: flex;
     margin: 0 auto;
     @media (max-width:800px) {
@@ -1123,9 +1126,12 @@ text-decoration: none;
       margin: 0 auto;
       display: flex;
     }
+    @media (max-width:450px) {
+      width:87%;
+    }
   }
   .face{
-    margin-left: 10%;
+    margin-left: 15%;
     color: black;
     font-size: 20px;
     @media (max-width:800px) {
@@ -1134,6 +1140,7 @@ text-decoration: none;
     @media (max-width:500px) {
       margin-left: 6%;
     }
+   
   }
   .face-image01{
     text-decoration: none;

@@ -534,7 +534,20 @@ a {
 .tutorial-vid {
   max-width: 1065px;
   margin: 0 auto;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  height: 500px; }
+  @media (max-width: 1172px) {
+    .tutorial-vid {
+      padding: 0 3%; } }
+  @media (max-width: 850px) {
+    .tutorial-vid {
+      padding: 0 5%; } }
+  @media (max-width: 600px) {
+    .tutorial-vid {
+      height: 400px; } }
+  @media (max-width: 400px) {
+    .tutorial-vid {
+      height: 300px; } }
 
 .div-for-header {
   margin-bottom: 50px; }
@@ -2562,7 +2575,8 @@ a {
       @media (max-width: 520px) {
         .coming-soon-main .coming-soon .blue-honey {
           width: 55%;
-          margin: 0 auto; } }
+          margin: 0 auto;
+          margin-top: 15px; } }
       @media (max-width: 361px) {
         .coming-soon-main .coming-soon .blue-honey {
           width: 70%; } }
@@ -4530,6 +4544,9 @@ a {
     .contour-guide-div .guide-title-div .guide-title {
       font-family: "Open Sans Condensed", sans-serif;
       font-size: 25px; }
+      @media (max-width: 400px) {
+        .contour-guide-div .guide-title-div .guide-title {
+          font-size: 20px; } }
   .contour-guide-div .contour-guide {
     max-width: 1170px;
     margin: 0 auto;
@@ -4568,6 +4585,14 @@ a {
         .contour-guide-div .contour-guide .guide-image1 {
           width: 34%;
           margin-right: 35px; } }
+      @media (max-width: 400px) {
+        .contour-guide-div .contour-guide .guide-image1 {
+          width: 67%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; } }
     .contour-guide-div .contour-guide .guide-image2 {
       width: 15%; }
       @media (max-width: 950px) {
@@ -4576,6 +4601,14 @@ a {
       @media (max-width: 580px) {
         .contour-guide-div .contour-guide .guide-image2 {
           width: 34%; } }
+      @media (max-width: 400px) {
+        .contour-guide-div .contour-guide .guide-image2 {
+          width: 67%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; } }
     .contour-guide-div .contour-guide .guide-image3 {
       width: 15%; }
       @media (max-width: 950px) {
@@ -4585,6 +4618,14 @@ a {
         .contour-guide-div .contour-guide .guide-image3 {
           width: 34%;
           margin-right: 35px; } }
+      @media (max-width: 400px) {
+        .contour-guide-div .contour-guide .guide-image3 {
+          width: 67%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; } }
     .contour-guide-div .contour-guide .guide-image4 {
       width: 15%; }
       @media (max-width: 950px) {
@@ -4593,6 +4634,14 @@ a {
       @media (max-width: 580px) {
         .contour-guide-div .contour-guide .guide-image4 {
           width: 34%; } }
+      @media (max-width: 400px) {
+        .contour-guide-div .contour-guide .guide-image4 {
+          width: 67%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; } }
     .contour-guide-div .contour-guide .guide-image5 {
       width: 15%; }
       @media (max-width: 950px) {
@@ -4602,6 +4651,14 @@ a {
         .contour-guide-div .contour-guide .guide-image5 {
           width: 34%;
           margin-right: 35px; } }
+      @media (max-width: 400px) {
+        .contour-guide-div .contour-guide .guide-image5 {
+          width: 67%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; } }
     .contour-guide-div .contour-guide .guide-image6 {
       width: 15%; }
       @media (max-width: 950px) {
@@ -4610,6 +4667,14 @@ a {
       @media (max-width: 580px) {
         .contour-guide-div .contour-guide .guide-image6 {
           width: 34%; } }
+      @media (max-width: 400px) {
+        .contour-guide-div .contour-guide .guide-image6 {
+          width: 67%;
+          margin: 0 auto;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex; } }
 
 .contour-bundle-main-div {
   width: 100%;
@@ -6514,10 +6579,12 @@ a {
       .lip-collection-worn-div .image1 {
         width: 26%;
         margin-bottom: 10px; } }
-    @media (max-width: 400px) {
+    @media (max-width: 550px) {
       .lip-collection-worn-div .image1 {
-        width: 35%;
-        margin-right: 36px; } }
+        width: 44%; } }
+    @media (max-width: 450px) {
+      .lip-collection-worn-div .image1 {
+        width: 60%; } }
   .lip-collection-worn-div .image2 {
     width: 12%; }
     @media (max-width: 1000px) {
@@ -6527,9 +6594,12 @@ a {
       .lip-collection-worn-div .image2 {
         width: 25%;
         margin-bottom: 10px; } }
-    @media (max-width: 400px) {
+    @media (max-width: 550px) {
       .lip-collection-worn-div .image2 {
-        width: 35%; } }
+        width: 44%; } }
+    @media (max-width: 450px) {
+      .lip-collection-worn-div .image2 {
+        width: 60%; } }
   .lip-collection-worn-div .image3 {
     width: 12%; }
     @media (max-width: 1000px) {
@@ -6539,10 +6609,12 @@ a {
       .lip-collection-worn-div .image3 {
         width: 25%;
         margin-bottom: 10px; } }
-    @media (max-width: 400px) {
+    @media (max-width: 550px) {
       .lip-collection-worn-div .image3 {
-        width: 35%;
-        margin-right: 36px; } }
+        width: 44%; } }
+    @media (max-width: 450px) {
+      .lip-collection-worn-div .image3 {
+        width: 60%; } }
   .lip-collection-worn-div .image4 {
     width: 12%; }
     @media (max-width: 1000px) {
@@ -6552,9 +6624,12 @@ a {
       .lip-collection-worn-div .image4 {
         width: 26%;
         margin-bottom: 10px; } }
-    @media (max-width: 400px) {
+    @media (max-width: 550px) {
       .lip-collection-worn-div .image4 {
-        width: 35%; } }
+        width: 44%; } }
+    @media (max-width: 450px) {
+      .lip-collection-worn-div .image4 {
+        width: 60%; } }
   .lip-collection-worn-div .image5 {
     width: 12%; }
     @media (max-width: 1000px) {
@@ -6564,10 +6639,12 @@ a {
       .lip-collection-worn-div .image5 {
         width: 25%;
         margin-bottom: 10px; } }
-    @media (max-width: 400px) {
+    @media (max-width: 550px) {
       .lip-collection-worn-div .image5 {
-        width: 35%;
-        margin-right: 36px; } }
+        width: 44%; } }
+    @media (max-width: 450px) {
+      .lip-collection-worn-div .image5 {
+        width: 60%; } }
   .lip-collection-worn-div .image6 {
     width: 12%; }
     @media (max-width: 1000px) {
@@ -6577,9 +6654,12 @@ a {
       .lip-collection-worn-div .image6 {
         width: 25%;
         margin-bottom: 10px; } }
-    @media (max-width: 400px) {
+    @media (max-width: 550px) {
       .lip-collection-worn-div .image6 {
-        width: 35%; } }
+        width: 44%; } }
+    @media (max-width: 450px) {
+      .lip-collection-worn-div .image6 {
+        width: 60%; } }
 
 .ind-main-div {
   width: 100%;
@@ -8615,8 +8695,8 @@ a {
           width: 100%;
           margin: 0 auto; } }
       .makeup-section .makeup-section-main .eye-section .eyes-image {
-        width: 70%;
-        margin-left: 28%; }
+        width: 60%;
+        margin-left: 37%; }
         @media (max-width: 800px) {
           .makeup-section .makeup-section-main .eye-section .eyes-image {
             width: 87%;
@@ -8629,7 +8709,7 @@ a {
             display: -ms-flexbox;
             display: flex; } }
       .makeup-section .makeup-section-main .eye-section .eyes {
-        margin-left: 28%;
+        margin-left: 37%;
         color: black;
         font-size: 20px; }
         @media (max-width: 800px) {
@@ -8646,7 +8726,7 @@ a {
         .makeup-section .makeup-section-main .lip-section {
           width: 100%; } }
       .makeup-section .makeup-section-main .lip-section .lips-image {
-        width: 70%;
+        width: 60%;
         margin-left: 2%; }
         @media (max-width: 800px) {
           .makeup-section .makeup-section-main .lip-section .lips-image {
@@ -8674,7 +8754,7 @@ a {
         .makeup-section .makeup-section-main .face-section {
           width: 100%; } }
       .makeup-section .makeup-section-main .face-section .face-image {
-        width: 80%;
+        width: 70%;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -8691,8 +8771,11 @@ a {
             display: -webkit-flex;
             display: -ms-flexbox;
             display: flex; } }
+        @media (max-width: 450px) {
+          .makeup-section .makeup-section-main .face-section .face-image {
+            width: 87%; } }
       .makeup-section .makeup-section-main .face-section .face {
-        margin-left: 10%;
+        margin-left: 15%;
         color: black;
         font-size: 20px; }
         @media (max-width: 800px) {
