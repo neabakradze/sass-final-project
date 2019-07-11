@@ -2526,7 +2526,8 @@ a {
 .coming-soon-main {
   width: 100%;
   font-family: "Open Sans Condensed", sans-serif;
-  padding: 15px; }
+  padding: 15px;
+  margin-bottom: 50px; }
   .coming-soon-main .coming-soon-title-div {
     display: -webkit-box;
     display: -webkit-flex;
@@ -7408,7 +7409,10 @@ a {
       color: #5c2546;
       font-size: 25px; }
       .models-main2 .text-div .sentence1-div .sentence1 {
-        margin-left: 5px; }
+        margin-left: 5px;
+        margin-bottom: 10px; }
+      .models-main2 .text-div .sentence1-div .sentence1-2 {
+        margin-left: 10px; }
     .models-main2 .text-div .sentence2-div {
       -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
@@ -8562,6 +8566,9 @@ a {
     margin-bottom: 10px; }
     .models-main-div .hastag-div .hashtag {
       font-size: 1.583rem; }
+      .models-main-div .hastag-div .hashtag .hashtag-a {
+        color: #000;
+        text-decoration: none; }
   .models-main-div .hashtag-div2 {
     display: -webkit-box;
     display: -webkit-flex;
